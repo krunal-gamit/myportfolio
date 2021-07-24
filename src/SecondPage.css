@@ -1,0 +1,58 @@
+.mainPage {
+  background-color: black;
+  font-family: SF Pro Display;
+}
+
+.intro {
+  color: white;
+  margin-top: 20vw;
+}
+
+.intro span {
+  font-size: 2vw;
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+  width: 30vw;
+}
+
+@media (min-width: 700px) {
+  .intro span {
+    font-size: 1.5vw;
+    font-weight: 300;
+    width: 45vw;
+  }
+}
+
+.linkAbout span {
+  margin-top: 10px;
+  display: inline-block;
+  position: relative;
+  color: white;
+  border-color: tomato;
+}
+
+.linkAbout span:after {
+  content: "";
+  position: absolute;
+  width: 6.2vw;
+  transform: scaleX(1);
+  height: 1.5px;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+  transform-origin: bottom left;
+  transition: transform 0.25s ease-out;
+}
+
+.linkAbout span:hover:after {
+  transform: scaleX(0);
+  transform-origin: bottom right;
+}
+
+.box {
+  height: 30vw;
+  width: 30vw;
+  background-color: yellow;
+  margin: -25vw 0 10vw 65vw;
+}

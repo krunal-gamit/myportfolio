@@ -1,0 +1,100 @@
+.projects {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.gigname {
+  position: absolute;
+  font-size: 2vw;
+  margin-top: 52vw;
+  margin-left: 0vw;
+}
+
+.gigname #fn {
+  font-family: SF Pro Display;
+  font-weight: 500;
+}
+
+.gigname #ln {
+  font-family: GT Eesti Text Trial Rg;
+  font-weight: 10;
+  opacity: 0.5;
+}
+
+.projects .one {
+  height: 47vw;
+  width: 42vw;
+  background-image: linear-gradient(rgba(0, 255, 135), rgba(96, 239, 255));
+  margin-top: 10vw;
+  margin-left: 10vw;
+}
+
+.projects .two {
+  height: 50vw;
+  width: 30vw;
+  background-image: linear-gradient(rgba(255, 249, 91), rgba(255, 147, 15));
+  margin-top: -30vw;
+  margin-left: 60vw;
+}
+
+.projects .three {
+  height: 50vw;
+  width: 33vw;
+  background-image: linear-gradient(rgb(255, 27, 107), rgba(69, 202, 255));
+  margin-top: -5vw;
+  margin-left: 7vw;
+}
+
+.projects .four {
+  height: 50vw;
+  width: 40vw;
+  background-image: linear-gradient(rgba(255, 249, 91), rgba(255, 147, 15));
+  margin-top: -30vw;
+  margin-left: 50vw;
+}
+
+.projects .one .gig {
+  height: 40vw;
+  width: 40vw;
+  position: absolute;
+  background-color: white;
+  display: block;
+  margin-left: 1vw;
+  margin-top: 3vw;
+}
+
+.projects .two .gig {
+  height: 40vw;
+  width: 24vw;
+  position: absolute;
+  background-color: white;
+  display: block;
+  margin-left: 2vw;
+  margin-top: 5vw;
+}
+
+.projects .three .gig {
+  height: 45vw;
+  width: 24vw;
+  position: absolute;
+  background-color: white;
+  display: block;
+  margin-left: 4vw;
+  margin-top: 3vw;
+}
+
+.projects .four .gig {
+  height: 40vw;
+  width: 35vw;
+  position: absolute;
+  background-color: white;
+  display: block;
+  margin-left: 2vw;
+  margin-top: 3vw;
+}
+
+.space {
+  height: 10vw;
+}

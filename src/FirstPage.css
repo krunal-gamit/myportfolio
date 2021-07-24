@@ -1,0 +1,71 @@
+.mainBody {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+.name {
+  font-size: 2vw;
+  margin-left: 20vw;
+}
+
+.name span {
+  margin-top: 10vw;
+  display: flex;
+  flex-direction: row;
+}
+
+.tName {
+  font-size: 10vw;
+  font-weight: bolder;
+}
+
+.tName span {
+  margin-top: 0.01vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.shapes {
+  background-color: transparent;
+}
+
+#one {
+  height: 3vw;
+  width: 3vw;
+  margin-left: 10vw;
+  margin-top: -1vw;
+  border-radius: 50%;
+  position: absolute;
+  background-color: #5cff5c;
+}
+
+#two {
+  height: 3vw;
+  width: 3vw;
+  background-color: #f070a1;
+  margin-left: 90vw;
+  margin-top: -10vw;
+  border-radius: 50%;
+  position: absolute;
+}
+
+#three {
+  height: 3vw;
+  width: 3vw;
+  background-color: #ffff00;
+  margin-left: 75vw;
+  margin-top: -35vw;
+  border-radius: 50%;
+  position: absolute;
+}
+
+#four {
+  height: 3vw;
+  width: 3vw;
+  background-color: #16ffbd;
+  margin-left: 27vw;
+  margin-top: -40vw;
+  border-radius: 50%;
+  position: absolute;
+}

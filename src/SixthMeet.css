@@ -1,0 +1,78 @@
+.meet {
+  background-color: black;
+  color: white;
+}
+
+.meetText {
+  float: left;
+  text-align: center;
+  padding: 0vw;
+}
+
+#textOne {
+  font-size: 10vw;
+  font-weight: 200;
+  font-family: SF Pro Display;
+  padding: 0vw 5vw 0vw 20vw;
+}
+
+#textTwo {
+  font-size: 10vw;
+  font-weight: 200;
+  font-family: SF Pro Display;
+  padding: 0 5vw 0 0;
+}
+
+#textThree {
+  font-size: 10vw;
+  font-weight: 100;
+  font-family: GT Super Ds Trial Lt;
+}
+
+.bottomText {
+  color: white;
+  margin-top: 17vw;
+  margin-left: 45vw;
+}
+
+.bottomText span {
+  font-size: 2vw;
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+  width: 30vw;
+}
+
+@media (min-width: 700px) {
+  .bottomText span {
+    font-size: 1.5vw;
+    font-weight: 300;
+    width: 45vw;
+  }
+}
+
+.linkChat span {
+  margin-top: 10px;
+  display: inline-block;
+  position: relative;
+  color: white;
+  border-color: tomato;
+}
+
+.linkChat span:after {
+  content: "";
+  position: absolute;
+  width: 8vw;
+  transform: scaleX(1);
+  height: 1.5px;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+  transform-origin: bottom left;
+  transition: transform 0.25s ease-out;
+}
+
+.linkChat span:hover:after {
+    transform: scaleX(0);
+    transform-origin: bottom right;
+  }
