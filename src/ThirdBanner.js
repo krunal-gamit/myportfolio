@@ -9,17 +9,9 @@ function ThirdBanner(){
                     </div>
                 <div id='t2'>
                     <h1>WORK</h1>
-                
                 </div>
             </div>
         </div>
     );
 }
-
-<<<<<<< HEAD
-=======
-
-
-
->>>>>>> c057c09070f78ee6c202dced31c5bbe56d8bbd44
 export default ThirdBanner;
