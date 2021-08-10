@@ -16,4 +16,10 @@ function ThirdBanner(){
     );
 }
 
+<<<<<<< HEAD
+=======
+
+
+
+>>>>>>> c057c09070f78ee6c202dced31c5bbe56d8bbd44
 export default ThirdBanner;
