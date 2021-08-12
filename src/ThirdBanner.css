@@ -1,22 +1,20 @@
-.bannerb {
-  margin: 0;
-  padding: 0;
+.content1 {
   width: 100%;
   min-height: 2000px;
   overflow-x: hidden;
   font-family: "Monument Extended", Arial, Helvetica, sans-serif;
-  background: #0f0f0f;
+  background: blue;
 }
 
-.container {
+.container1 {
   max-width: 600px;
   margin: 200px auto;
-  width: 90%;
+  width: 100%;
   padding: 200px 0px;
   position: relative;
 }
 
-.text {
+.text1 {
   color: white;
   margin: 0;
   font-size: 64px;
@@ -30,10 +28,10 @@
   text-transform: uppercase;
   white-space: nowrap;
 }
-.text.text-dark {
-  color: red;
+.text.text-dark1 {
+  color: black;
 }
-.text span {
+.text1 span {
   position: relative;
   display: block;
 }
