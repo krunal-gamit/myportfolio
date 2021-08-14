@@ -1,26 +1,21 @@
 .bannerBack {
-  background-color: rgb(0, 0, 0);
+  background-color: black;
 }
 
-.bannerTitle {
+.bannerText {
   color: white;
   font-family: Tungsten;
   font-weight: bolder;
-  font-size: 7vw;
+  font-size: 10vw;
   display: inline-block;
 }
 
-.bannerTitle h1 {
+.latest {
   padding-left: 3vw;
+  padding-right: 2vw;
 }
 
-.bannerTitle #t1,
-#t2 {
-  float: left;
-  text-align: left;
-}
-
-.bannerTitle #t2 h1 {
+.work {
   color: black;
   text-shadow: 0 -0.1vw white, 0.01vw 0 white, 0 0.1vw white, -0.2vw 0 white;
 }
