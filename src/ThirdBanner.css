@@ -1,21 +1,79 @@
-.bannerBack {
-  background-color: black;
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap");
+
+.bannerContainer {
+  margin: 0;
+  padding: 10px;
+  font-family: Oswald;
+  background-size: cover;
+  background-color: #000;
 }
 
-.bannerText {
-  color: white;
-  font-family: Tungsten;
-  font-weight: bolder;
-  font-size: 10vw;
-  display: inline-block;
+section {
+  position: relative;
+  width: 100%;
+  height: 30vw;
+  overflow: hidden;
 }
 
-.latest {
-  padding-left: 3vw;
-  padding-right: 2vw;
+section .scroll {
+  margin-left: 150px;
+  width: 100%;
+  display: flex;
 }
 
-.work {
+section .scroll div {
   color: black;
-  text-shadow: 0 -0.1vw white, 0.01vw 0 white, 0 0.1vw white, -0.2vw 0 white;
+  font-size: 7.6vw;
+  background: white;
+  white-space: nowrap;
+  font-weight: 900;
+  text-transform: uppercase;
+  animation: animate 40s linear infinite;
+  animation-delay: -40s;
+}
+
+section .scroll div:hover {
+  color: #00ff00;
+}
+
+section .scroll div:nth-child(2) {
+  animation: animate2 40s linear infinite;
+  animation-delay: -20s;
+}
+section .scroll div span {
+  -webkit-text-stroke: 0.2vw black;
+  color: transparent;
+}
+
+section .scroll div span:hover {
+  -webkit-text-stroke: 0.2vw #00ff00;
+  color: transparent;
+}
+
+@keyframes animate {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes animate2 {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-200%);
+  }
+}
+
+section .scroll.text1 {
+  transform: rotate(-2deg) translateY(1vw) translateX(-1vw);
+  box-shadow: 0 0 1.5vw 0 rgba(0, 0, 0, 0.5);
+}
+
+section .scroll.text2 {
+  transform: rotate(7deg) translateY(4vw) translateX(-20vw);
+  box-shadow: 0 0 1.5vw 0 rgba(0, 0, 0, 0.5);
 }
