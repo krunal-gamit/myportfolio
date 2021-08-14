@@ -3,7 +3,6 @@ import './FirstPage.css'
 function FirstPage(){
     return(
         <div className='mainBody'>
-
             <div className='name'>
                 <span>Krunal Gamit</span>
             </div>
@@ -11,7 +10,8 @@ function FirstPage(){
                 <span>&lt;designer/&gt; .developer</span>
             </div>
             <div className='shapes'>
-                <div id='one'></div>
+                <div id='one' ></div>
+                <div id='one1'><a href="krooks.com"><span className="link"></span></a></div>
                 <div id='two'></div>
                 <div id='three'></div>
                 <div id='four'></div>
@@ -20,7 +20,7 @@ function FirstPage(){
             <div className='socials'>
                 
             </div>
-
+            
         </div>
     );
 }
