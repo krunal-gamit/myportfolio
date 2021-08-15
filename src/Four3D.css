@@ -1,0 +1,36 @@
+.content3d {
+  height: 50vw;
+  width: 100%;
+  overflow: hidden;
+  background-color: black;
+}
+
+.contain {
+  height: 50vw;
+  width: 105vw;
+  overflow: hidden;
+  z-index: 995;
+}
+
+.contentText {
+  margin-left: 40vw;
+  margin-top: -35vw;
+  position: absolute;
+  z-index: 999;
+}
+
+.contentText span {
+  color: white;
+  font-family: "Segoe UI";
+}
+
+.contentText #textone {
+  font-weight: 100;
+  font-size: 4vw;
+}
+
+.contentText #texttwo {
+  font-size: 1.3vw;
+  font-weight: 100;
+  opacity: 80%;
+}

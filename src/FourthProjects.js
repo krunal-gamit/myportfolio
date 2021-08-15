@@ -26,7 +26,7 @@ function FourthProjects(){
             <div className='four'>
                 <div className='gig'></div>
                 <div className='gigname'>
-                    <div id='fn'>Youtube Video DOwnloader</div>
+                    <div id='fn'>Youtube Video Downloader</div>
                     <div id='ln'>Python App</div>
                 </div></div>
                 <div className='space'></div>
