@@ -8,7 +8,7 @@ import FifthBanner from './FifthBanner';
 import SixthMeet from './SixthMeet';
 import SeventhBar from './SeventhBar';
 import EighthFooter from './EighthFooter';
-
+import Four3D from './Four3D';
 
 function App() {
   return (
@@ -18,6 +18,7 @@ function App() {
       <SecondPage/>
       <ThirdBanner/>
       <FourthProjects/>
+      <Four3D/>
       <FifthBanner/>
       <SixthMeet/>
       <SeventhBar/>
