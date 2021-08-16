@@ -10,13 +10,13 @@
 }
 
 .name span {
-  margin-top: 10vw;
+  margin-top: 5vw;
   display: flex;
   flex-direction: row;
 }
 
 .tName {
-  font-size: 10vw;
+  font-size: 8.5vw;
   font-weight: bolder;
 }
 
@@ -26,7 +26,13 @@
   flex-direction: column;
 }
 
+.tName span:hover{
+  
+
+}
+
 .shapes {
+  margin-top: 10vw;
   background-color: transparent;
 }
 
@@ -42,38 +48,16 @@
 #one {
   height: 30px;
   width: 30px;
-  margin-left: 100px;
-  margin-top: -10px;
+  margin-left: 10vw;
+  margin-top: -10vw;
   border-radius: 50%;
   position: absolute;
   background-color: #5cff5c;
-  transition: ease-out 0.5s;
-  z-index: 990;
-}
-
-#one1 {
-  height: 80px;
-  width: 80px;
-  margin-left: 74px;
-  margin-top: -36px;
-  border-radius: 50%;
-  position: absolute;
-  background-color: #5cff5c;
-  opacity: 25%;
-  transition: ease-out 0.1s;
-  z-index: 1000;
-}
-
-#one1:hover {
-  height: 150px;
-  width: 150px;
-  margin-left: 42px !important;
-  margin-top: -78px !important;
 }
 
 #two {
-  height: 3vw;
-  width: 3vw;
+  height: 30px;
+  width: 30px;
   background-color: #f070a1;
   margin-left: 90vw;
   margin-top: -10vw;
@@ -82,8 +66,8 @@
 }
 
 #three {
-  height: 3vw;
-  width: 3vw;
+  height: 30px;
+  width: 30px;
   background-color: #ffff00;
   margin-left: 75vw;
   margin-top: -35vw;
@@ -92,8 +76,8 @@
 }
 
 #four {
-  height: 3vw;
-  width: 3vw;
+  height: 30px;
+  width: 30px;
   background-color: #16ffbd;
   margin-left: 27vw;
   margin-top: -40vw;

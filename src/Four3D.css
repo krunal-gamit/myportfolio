@@ -7,7 +7,7 @@
 
 .contain {
   height: 50vw;
-  width: 105vw;
+  width: 110vw;
   overflow: hidden;
   z-index: 995;
 }
@@ -25,12 +25,14 @@
 }
 
 .contentText #textone {
-  font-weight: 100;
+  font-weight: 200;
   font-size: 4vw;
 }
-
-.contentText #texttwo {
-  font-size: 1.3vw;
+.contentText #midtext {
   font-weight: 100;
-  opacity: 80%;
+  font-size: 3vw;
+}
+.contentText #texttwo {
+  font-size: 1.5vw;
+  font-weight: 300;
 }
