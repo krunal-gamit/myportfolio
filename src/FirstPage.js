@@ -7,11 +7,10 @@ function FirstPage(){
                 <span>Krunal Gamit</span>
             </div>
             <div className='tName'>
-                <span>&lt;designer/&gt; .developer</span>
+                <span>&lt;designer/&gt;<br></br> .developer</span>
             </div>
             <div className='shapes'>
                 <div id='one' ></div>
-                <div id='one1'><a href="krooks.com"><span className="link"></span></a></div>
                 <div id='two'></div>
                 <div id='three'></div>
                 <div id='four'></div>

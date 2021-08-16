@@ -11,7 +11,7 @@
 section {
   position: relative;
   width: 100%;
-  height: 30vw;
+  height: 20vw;
   overflow: hidden;
 }
 
@@ -23,7 +23,7 @@ section .scroll {
 
 section .scroll div {
   color: black;
-  font-size: 7.6vw;
+  font-size: 3.9vw;
   background: white;
   white-space: nowrap;
   font-weight: 900;
@@ -40,13 +40,14 @@ section .scroll div:nth-child(2) {
   animation: animate2 40s linear infinite;
   animation-delay: -20s;
 }
+
 section .scroll div span {
-  -webkit-text-stroke: 0.2vw black;
+  -webkit-text-stroke: 0.1vw black;
   color: transparent;
 }
 
 section .scroll div span:hover {
-  -webkit-text-stroke: 0.2vw #00ff00;
+  -webkit-text-stroke: 0.1vw #00ff00;
   color: transparent;
 }
 
@@ -69,11 +70,11 @@ section .scroll div span:hover {
 }
 
 section .scroll.text1 {
-  transform: rotate(-2deg) translateY(1vw) translateX(-1vw);
+  transform: rotate(-2deg) translateY(1vw) translateX(0vw);
   box-shadow: 0 0 1.5vw 0 rgba(0, 0, 0, 0.5);
 }
 
 section .scroll.text2 {
-  transform: rotate(7deg) translateY(4vw) translateX(-20vw);
+  transform: rotate(5deg) translateY(4vw) translateX(-25vw);
   box-shadow: 0 0 1.5vw 0 rgba(0, 0, 0, 0.5);
 }
