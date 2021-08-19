@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
 
 .header {
   background-color: black;
@@ -10,7 +10,7 @@
 }
 
 .logo {
-  font-family: Russo One;
+  font-family: Permanent Marker;
   font-size: 4vw;
   margin: 0.5rem;
   padding-left: 70px;
@@ -29,17 +29,20 @@
 .rightHeader li {
   list-style-type: none;
   justify-content: space-between;
-  padding: 20px 5px 5px 5px;
+  padding: 15px 20px 0px 20px;
 }
 
 .rightHeader li a {
   text-decoration: none;
   color: #ffffff;
-  padding: 1rem;
+  padding: 2rem;
   display: block;
   font-size: 1.5vw;
   font-family: Codec Cold Trial News;
 }
 
 .rightHeader li a:hover {
+}
+
+.active a {
 }

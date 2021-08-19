@@ -5,7 +5,7 @@ function Header() {
     return(
         <div className="header">
             <div className="logo">
-                <h4>k_g</h4>
+                <h4>kig</h4>
             </div>
             <div className="menu-btn">
                 <div className="menu-btn__burger"></div>
@@ -13,7 +13,7 @@ function Header() {
             
             <div className="rightHeader">
                 <ul>
-                    <li><a href="/#">HOME</a></li>
+                    <li><a className="active" href="/#">HOME</a></li>
                     <li><a href="/#">PLAYGROUND</a></li>
                     <li><a href="/#">ABOUT</a></li>
                     <li><a href="/#">CONTACT</a></li>
