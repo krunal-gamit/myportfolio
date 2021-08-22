@@ -24,8 +24,8 @@
 }
 
 .projects .one {
-  height: 47vw;
-  width: 42vw;
+  height: 25vw;
+  width: 22vw;
   background-image: linear-gradient(rgba(0, 255, 135), rgba(96, 239, 255));
   margin-top: 10vw;
   margin-left: 10vw;
@@ -56,8 +56,8 @@
 }
 
 .projects .one .gig {
-  height: 40vw;
-  width: 40vw;
+  height: 20vw;
+  width: 20vw;
   position: absolute;
   background-color: white;
   display: block;
@@ -66,7 +66,7 @@
 }
 
 .projects .two .gig {
-  height: 40vw;
+  height: 42vw;
   width: 24vw;
   position: absolute;
   background-color: white;
