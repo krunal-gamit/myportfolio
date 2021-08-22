@@ -1,10 +1,10 @@
 .mainPage {
-  background-color: rgb(0, 0, 0);
+  background-color:white;
   font-family: SF Pro Display;
 }
 
 .intro {
-  color: white;
+  color: black;
   margin-top: 20vw;
 }
 
@@ -28,7 +28,7 @@
   margin-top: 10px;
   display: inline-block;
   position: relative;
-  color: white;
+  color: black;
   border-color: tomato;
 }
 
@@ -40,7 +40,7 @@
   height: 1.5px;
   bottom: 0;
   left: 0;
-  background-color: white;
+  background-color: black;
   transform-origin: bottom left;
   transition: transform 0.25s ease-out;
 }

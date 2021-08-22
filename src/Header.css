@@ -1,11 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
 
 .header {
-  background-color: black;
+  background-color: white;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color: white;
+  color: black;
   padding-top: 15px;
 }
 
@@ -34,7 +34,7 @@
 
 .rightHeader li a {
   text-decoration: none;
-  color: #ffffff;
+  color: black;
   padding: 2rem;
   display: block;
   font-size: 1.5vw;

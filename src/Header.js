@@ -10,7 +10,6 @@ function Header() {
             <div className="menu-btn">
                 <div className="menu-btn__burger"></div>
             </div>
-            
             <div className="rightHeader">
                 <ul>
                     <li><a className="active" href="/#">HOME</a></li>

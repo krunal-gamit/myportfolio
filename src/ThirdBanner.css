@@ -5,7 +5,7 @@
   padding: 10px;
   font-family: Oswald;
   background-size: cover;
-  background-color: #000;
+  background-color: white;
 }
 
 section {
@@ -23,17 +23,13 @@ section .scroll {
 
 section .scroll div {
   color: black;
-  font-size: 3.9vw;
+  font-size: 8vw;
   background: white;
   white-space: nowrap;
   font-weight: 900;
   text-transform: uppercase;
   animation: animate 40s linear infinite;
   animation-delay: -40s;
-}
-
-section .scroll div:hover {
-  color: #00ff00;
 }
 
 section .scroll div:nth-child(2) {
@@ -43,11 +39,6 @@ section .scroll div:nth-child(2) {
 
 section .scroll div span {
   -webkit-text-stroke: 0.1vw black;
-  color: transparent;
-}
-
-section .scroll div span:hover {
-  -webkit-text-stroke: 0.1vw #00ff00;
   color: transparent;
 }
 
@@ -70,11 +61,6 @@ section .scroll div span:hover {
 }
 
 section .scroll.text1 {
-  transform: rotate(-2deg) translateY(1vw) translateX(0vw);
-  box-shadow: 0 0 1.5vw 0 rgba(0, 0, 0, 0.5);
-}
-
-section .scroll.text2 {
-  transform: rotate(5deg) translateY(4vw) translateX(-25vw);
-  box-shadow: 0 0 1.5vw 0 rgba(0, 0, 0, 0.5);
+  transform: rotate(0deg) translateY(0vw) translateX(-5vw);
+  box-shadow: 0 0 0vw 0 rgba(0, 0, 0, 0.5);
 }

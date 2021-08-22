@@ -13,14 +13,6 @@ function ThirdBanner(){
             Latest <span> Work - </span>Latest <span> Work - </span>Latest <span> Work - </span>Latest <span> Work - </span>
             </div>
         </div>
-        <div className="scroll text2">
-            <div>
-            Latest <span> Work - </span>Latest <span> Work - </span>Latest <span> Work - </span>Latest <span> Work - </span>
-            </div>
-            <div>
-            Latest <span> Work - </span>Latest <span> Work - </span>Latest <span> Work - </span>Latest <span> Work - </span>
-            </div>
-        </div>
     </section>
     </div>
     );
