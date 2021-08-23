@@ -1,13 +1,13 @@
 .content3d {
-  height: 50vw;
+  height: 20vw;
   width: 100%;
   overflow: hidden;
   background-color: black;
 }
 
 .contain {
-  height: 50vw;
-  width: 110vw;
+  height: 40vw;
+  width: 50vw;
   overflow: hidden;
   z-index: 995;
 }

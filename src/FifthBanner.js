@@ -4,7 +4,7 @@ function FifthBanner(){
     return(
         <div className='bannerBottom'>
             <div className='bannerTitle'>
-                <hi>WEB DEVELOPMENT + UX / UI DESIGN + RESPONSIVE + BRANDING IDENTITY</hi>
+                <span>WEB DEVELOPMENT + UX / UI DESIGN + RESPONSIVE </span>
             </div>
 
         </div>
