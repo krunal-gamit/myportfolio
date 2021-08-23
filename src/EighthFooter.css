@@ -64,3 +64,14 @@
 .col3 span {
   margin-right: 7vw;
 }
+
+#socialIcon {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1vw;
+  margin-left: 5.8vw;
+}
+
+#socialIcon li{
+padding-left: 0.5vw;
+}
