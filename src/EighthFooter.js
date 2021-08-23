@@ -10,7 +10,7 @@ function EighthFooter(){
             </div>
             <div className='col2'>
                <span id='colName'>Say Hi.</span>
-               <span id='colDetail'>krooksgeek@gmail.com</span>
+               <span id='colDetail'><a href="mailto:krooksgeek@gmail.com">krooksgeek@gmail.com</a></span>
             </div>
             <div className='col3'>
                <span id='colName'>Baby, it's hot outside.</span>

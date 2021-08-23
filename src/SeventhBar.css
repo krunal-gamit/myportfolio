@@ -1,12 +1,12 @@
 .bar {
-  height: 40vw;
+  height: 35vw;
   background-color: rgb(0, 0, 0);
 }
 
 .minBar {
   height: 10vw;
   background-color: white;
-  margin: 15vw 7vw 0 7vw;
+  margin: 12vw 7vw 0 7vw;
 }
 
 .minBar .barText {

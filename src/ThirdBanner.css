@@ -23,7 +23,7 @@ section .scroll {
 
 section .scroll div {
   color: black;
-  font-size: 8vw;
+  font-size: 7.8vw;
   background: white;
   white-space: nowrap;
   font-weight: 900;
@@ -61,6 +61,6 @@ section .scroll div span {
 }
 
 section .scroll.text1 {
-  transform: rotate(0deg) translateY(0vw) translateX(-5vw);
+  transform: rotate(0deg) translateY(5vw) translateX(-5vw);
   box-shadow: 0 0 0vw 0 rgba(0, 0, 0, 0.5);
 }

@@ -45,6 +45,16 @@
   width: 33.3%;
 }
 
+.col2 #colDetail a {
+  text-decoration: none;
+  color: white;
+}
+
+.col2 #colDetail a:hover {
+  text-decoration: underline;
+  color: white;
+}
+
 .col3 {
   text-align: right;
   float: right;

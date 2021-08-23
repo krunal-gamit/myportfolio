@@ -1,27 +1,21 @@
 .mainPage {
-  background-color:white;
+  background-color: white;
   font-family: SF Pro Display;
+  color: black;
+  height: auto;
 }
 
 .intro {
-  color: black;
-  margin-top: 20vw;
+  display: flex;
+  flex-direction: column;
+  margin-top: 0;
+  width: 70em;
+  margin-left: 15em;
 }
 
 .intro span {
-  font-size: 2vw;
-  display: flex;
-  flex-direction: column;
-  margin-left: 100px;
-  width: 30vw;
-}
-
-@media (min-width: 700px) {
-  .intro span {
-    font-size: 1.5vw;
-    font-weight: 300;
-    width: 45vw;
-  }
+  font-size: 1.5vw;
+  margin-left: 1em;
 }
 
 .linkAbout span {
@@ -51,8 +45,9 @@
 }
 
 .box {
-  height: 30vw;
-  width: 30vw;
+  overflow: hidden;
+  height: 20vw;
+  width: 20vw;
   background-color: yellow;
-  margin: -25vw 0 10vw 65vw;
+  margin: -11.2vw 0 0 65vw;
 }
