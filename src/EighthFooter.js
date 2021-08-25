@@ -1,17 +1,25 @@
 import React from 'react';
 import './EighthFooter.css'
+import { FaInstagram, FaLinkedin, FaFacebook,  FaTwitter, FaGithub } from "react-icons/fa";
+import { IconContext } from 'react-icons/lib';
 
 
 function EighthFooter(){
     return(
+        
         <div className='footer'>
             <div className='col1'>
+            <IconContext.Provider value={{size: "1.5vw", color:"white"}} >
                <span id='colName'>Stop By.</span>
                <span id='colDetail'>🌈 Working Remotly.</span>
                <span id='socialIcon'>
-                   <li><i class="fa fa-instagram" aria-hidden="true"></i></li>
-                   
+                   <li><a target="_blank" href="https://www.instagram.com/krunalgamit_"><FaInstagram /></a></li>
+                   <li><a target="_blank" href="https://twitter.com/krunalgamit_"><FaTwitter /></a></li>
+                   <li><a target="_blank" href="https://www.facebook.com/krooksgeek"><FaFacebook /></a></li>
+                   <li><a target="_blank" href="https://github.com/krooksgeek"><FaGithub /></a></li>
+                   <li><a target="_blank" href="https://www.linkedin.com/in/krunal-gamit/"><FaLinkedin /></a></li>
                </span>
+               </IconContext.Provider>
             </div>
             <div className='col2'>
                <span id='colName'>Say Hi.</span>
