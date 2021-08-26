@@ -8,14 +8,14 @@
 .intro {
   display: flex;
   flex-direction: column;
-  margin-top: 0;
-  width: 70em;
-  margin-left: 15em;
+  width: 35vw;
+  margin-top: 5vw;
+  margin-left: 10vw;
+  margin-bottom: 7vw;
 }
 
 .intro span {
   font-size: 1.5vw;
-  margin-left: 1em;
 }
 
 .linkAbout span {
@@ -45,9 +45,11 @@
 }
 
 .box {
+  z-index: 999;
   overflow: hidden;
-  height: 20vw;
-  width: 20vw;
+  position: absolute;
+  height: 25vw;
+  width: 25vw;
   background-color: yellow;
-  margin: -11.2vw 0 0 65vw;
+  margin: -24vw 0 2vw 67vw;
 }
