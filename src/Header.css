@@ -6,14 +6,26 @@
   justify-content: space-between;
   align-items: center;
   color: black;
-  padding-top: 15px;
+  margin-top: 0;
 }
 
 .logo {
   font-family: Permanent Marker;
   font-size: 4vw;
-  margin: 0.5rem;
-  padding-left: 70px;
+  margin-left: 70px;
+}
+
+@media (max-width: 800px) {
+  .logo {
+    font-family: Permanent Marker;
+    font-size: 7vw;
+    margin-left: 0px;
+    margin-top: -5px;
+    overflow: hidden;
+  }
+  .logo span {
+    padding: 10vw;
+  }
 }
 
 .rightHeader {
@@ -30,6 +42,12 @@
   list-style-type: none;
   justify-content: space-between;
   padding: 15px 20px 0px 20px;
+}
+
+@media (max-width: 500px) {
+  .rightHeader li {
+    padding: 0;
+  }
 }
 
 .rightHeader li a {

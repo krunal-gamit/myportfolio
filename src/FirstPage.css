@@ -2,6 +2,7 @@
   background-color: white;
   color: black;
   text-align: center;
+  z-index: 990;
 }
 
 .name {
@@ -34,18 +35,9 @@
   background-color: transparent;
 }
 
-.link {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  z-index: 1;
-}
-
 #one {
-  height: 30px;
-  width: 30px;
+  height: 1vw;
+  width: 1vw;
   margin-left: 10vw;
   margin-top: -10vw;
   border-radius: 50%;
@@ -54,8 +46,8 @@
 }
 
 #two {
-  height: 30px;
-  width: 30px;
+  height: 1vw;
+  width: 1vw;
   background-color: #f070a1;
   margin-left: 90vw;
   margin-top: -10vw;
@@ -64,8 +56,8 @@
 }
 
 #three {
-  height: 30px;
-  width: 30px;
+  height: 1vw;
+  width: 1vw;
   background-color: #ffff00;
   margin-left: 75vw;
   margin-top: -35vw;
@@ -74,11 +66,37 @@
 }
 
 #four {
-  height: 30px;
-  width: 30px;
+  height: 1vw;
+  width: 1vw;
   background-color: #16ffbd;
-  margin-left: 27vw;
+  margin-left: 35vw;
   margin-top: -40vw;
   border-radius: 50%;
   position: absolute;
+}
+
+#five {
+  margin-left: 77vw;
+  margin-top: -20vw;
+  border-color: tomato;
+  border: 2px solid tomato;
+  position: absolute;
+  overflow: hidden;
+}
+
+
+#six {
+  margin-left: 15vw;
+  margin-top: -22vw;
+  border: 2px solid tomato;
+  position: absolute;
+  overflow: hidden;
+}
+
+#seven {
+  margin-left: 50vw;
+  margin-top: -35vw;
+  border: 2px solid tomato;
+  position: absolute;
+  overflow: hidden;
 }

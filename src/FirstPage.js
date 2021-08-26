@@ -1,4 +1,7 @@
 import './FirstPage.css'
+import {FaLinkedin, FaGithub} from "react-icons/fa";
+import {SiGmail} from "react-icons/si";
+import { IconContext } from 'react-icons/lib';
 
 function FirstPage(){
     return(
@@ -10,16 +13,16 @@ function FirstPage(){
                 <span>&lt;designer/&gt;<br></br> .developer</span>
             </div>
             <div className='shapes'>
+            <IconContext.Provider value={{size: "2vw"}} >
                 <div id='one' ></div>
                 <div id='two'></div>
                 <div id='three'></div>
                 <div id='four'></div>
+                <div id='five'><a target="_blank" href="https://www.linkedin.com/in/krunal-gamit/"><FaLinkedin color="#0e76a8" /></a></div>
+                <div id='six'><a target="_blank" href="https://github.com/krooksgeek"><FaGithub color="black" /></a></div>
+                <div id='seven'><a target="_blank" href="mailto:krooksgeek@gmail.com"><SiGmail color="#bb001b" /></a></div>
+            </IconContext.Provider>
             </div>
-
-            <div className='socials'>
-                
-            </div>
-            
         </div>
     );
 }
