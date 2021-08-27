@@ -63,3 +63,38 @@ section .scroll.text1 {
   transform: rotate(0deg) translateY(10vw) translateX(0);
   box-shadow: 0 0 0vw 0 rgba(0, 0, 0, 0.5);
 }
+
+@media (max-width: 400px) {
+  section .scroll div {
+    font-size: 14vw;
+  }
+
+  section .scroll div span {
+    -webkit-text-stroke: 0.2vw black;
+  }
+
+  section .scroll {
+    display: block;
+  }
+
+  @keyframes animate {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+
+  @keyframes animate2 {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(100%);
+    }
+  }
+  section .scroll.text1 {
+    transform: rotate(0deg) translateY(7vw) translateX(-5vw);
+  }
+}

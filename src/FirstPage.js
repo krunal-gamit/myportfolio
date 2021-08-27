@@ -13,14 +13,14 @@ function FirstPage(){
                 <span>&lt;designer/&gt;<br></br> .developer</span>
             </div>
             <div className='shapes'>
-            <IconContext.Provider value={{size: "2vw"}} >
+            <IconContext.Provider value={{size: "2.5vw"}} >
                 <div id='one' ></div>
                 <div id='two'></div>
                 <div id='three'></div>
                 <div id='four'></div>
-                <div id='five'><a target="_blank" href="https://www.linkedin.com/in/krunal-gamit/"><FaLinkedin color="#0e76a8" /></a></div>
-                <div id='six'><a target="_blank" href="https://github.com/krooksgeek"><FaGithub color="black" /></a></div>
-                <div id='seven'><a target="_blank" href="mailto:krooksgeek@gmail.com"><SiGmail color="#bb001b" /></a></div>
+                <div id='five'><a target="_blank" href="https://www.linkedin.com/in/krunal-gamit/"><FaLinkedin color="#0e76a8" className='firstSocial'/></a></div>
+                <div id='six'><a target="_blank" href="https://github.com/krooksgeek"><FaGithub color="black" className='firstSocial' /></a></div>
+                <div id='seven'><a target="_blank" href="mailto:krooksgeek@gmail.com"><SiGmail color="#bb001b" className='firstSocial' /></a></div>
             </IconContext.Provider>
             </div>
         </div>

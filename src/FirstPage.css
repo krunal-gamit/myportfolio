@@ -11,7 +11,7 @@
 }
 
 .name span {
-  margin-top: 5vw;
+  margin-top: 2vw;
   display: flex;
   flex-direction: row;
 }
@@ -43,52 +43,75 @@
   border-radius: 50%;
   position: absolute;
   background-color: #5cff5c;
+  outline: 0.05vw solid #5cff5c;
+  outline-offset: 2vw;
+  transition: 0.5s ease-in-out;
+}
+
+#one:hover {
+  outline-offset: 3vw;
 }
 
 #two {
   height: 1vw;
   width: 1vw;
   background-color: #f070a1;
-  margin-left: 90vw;
+  margin-left: 85vw;
   margin-top: -10vw;
   border-radius: 50%;
   position: absolute;
+  outline: 0.05vw solid #f070a1;
+  outline-offset: 2vw;
+  transition: 0.5s ease-in-out;
+}
+
+#two:hover {
+  outline-offset: 3vw;
 }
 
 #three {
   height: 1vw;
   width: 1vw;
   background-color: #ffff00;
-  margin-left: 75vw;
-  margin-top: -35vw;
+  margin-left: 90vw;
+  margin-top: -32vw;
   border-radius: 50%;
   position: absolute;
+  outline: 0.05vw solid #ffff00;
+  outline-offset: 2vw;
+  transition: 0.5s ease-in-out;
+}
+#three:hover {
+  outline-offset: 3vw;
 }
 
 #four {
   height: 1vw;
   width: 1vw;
   background-color: #16ffbd;
-  margin-left: 35vw;
-  margin-top: -40vw;
+  margin-left: 5vw;
+  margin-top: -30vw;
   border-radius: 50%;
   position: absolute;
+  outline: 0.05vw solid #16ffbd;
+  outline-offset: 2vw;
+  transition: 0.5s ease-in-out;
+}
+
+#four:hover {
+  outline-offset: 3vw;
 }
 
 #five {
   margin-left: 77vw;
   margin-top: -20vw;
-  border-color: tomato;
-  border: 2px solid tomato;
   position: absolute;
   overflow: hidden;
 }
 
-
 #six {
   margin-left: 15vw;
   margin-top: -22vw;
-  border: 2px solid tomato;
   position: absolute;
   overflow: hidden;
 }
@@ -96,7 +119,56 @@
 #seven {
   margin-left: 50vw;
   margin-top: -35vw;
-  border: 2px solid tomato;
   position: absolute;
   overflow: hidden;
+}
+
+@media (max-width: 800px) {
+  .name {
+    font-size: 2vw;
+  }
+  .tName span {
+    font-size: 10vw;
+  }
+
+  #five {
+    margin-left: 35vw;
+    margin-top: -7vw;
+  }
+  #six {
+    margin-left: 45vw;
+    margin-top: -7vw;
+  }
+  #seven {
+    margin-left: 55vw;
+    margin-top: -7vw;
+  }
+  .firstSocial {
+    width: 4vw;
+    height: 4vw;
+  }
+}
+
+@media (max-width: 400px) {
+  .name span {
+    margin-left: 18vw;
+    font-size: 3vw;
+  }
+  .tName span {
+    font-size: 15vw;
+  }
+
+  #three {
+    margin-top: -52vw;
+  }
+
+  #four {
+    margin-left: 25vw;
+    margin-top: -55vw;
+  }
+
+  .firstSocial {
+    width: 5vw;
+    height: 5vw;
+  }
 }

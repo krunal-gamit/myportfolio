@@ -9,7 +9,7 @@
   display: flex;
   flex-direction: column;
   width: 35vw;
-  margin-top: 5vw;
+  margin-top: 9vw;
   margin-left: 10vw;
   margin-bottom: 7vw;
 }
@@ -23,7 +23,6 @@
   display: inline-block;
   position: relative;
   color: black;
-  border-color: tomato;
 }
 
 .linkAbout span:after {
@@ -48,8 +47,52 @@
   z-index: 999;
   overflow: hidden;
   position: absolute;
-  height: 25vw;
-  width: 25vw;
+  height: 30vw;
+  width: 30vw;
   background-color: yellow;
-  margin: -24vw 0 2vw 67vw;
+  margin: 0vw 0 2vw 60vw;
+}
+
+@media (max-width: 800px) {
+  .box {
+    height: 40vw;
+    width: 40vw;
+    margin: 5vw 0 2vw 50vw;
+  }
+
+  .intro {
+    margin-top: 14vw;
+    margin-bottom: 14vw;
+  }
+  .intro span {
+    width: 37vw;
+    font-size: 2vw;
+  }
+
+  .linkAbout span:after {
+    width: 8vw;
+    height: 1.5px;
+  }
+}
+
+@media (max-width: 400px) {
+  .intro {
+    margin: 90vw 1vw 5vw 5vw;
+    width: auto;
+  }
+  .intro span {
+    width: 90vw;
+    font-size: 4vw;
+  }
+
+  .box {
+    height: 90vw;
+    width: 90vw;
+    margin-left: 3vw;
+  }
+
+  .linkAbout span:after {
+    width: 16vw;
+    height: 1.5px;
+  }
 }
