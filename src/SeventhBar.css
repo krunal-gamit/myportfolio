@@ -16,3 +16,24 @@
   text-align: center;
   margin-top: 4vw;
 }
+
+@media (max-width: 800px) {
+  .minBar {
+    height: 12vw;
+  }
+  .minBar .barText {
+    font-size: 3.5vw;
+    margin-top: 4vw;
+  }
+}
+
+@media (max-width: 400px) {
+  .minBar {
+    height: 21vw;
+  }
+  .minBar .barText {
+    font-size: 7vw;
+    margin-top: 2vw;
+  }
+}
+

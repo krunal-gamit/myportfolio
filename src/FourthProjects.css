@@ -7,7 +7,7 @@
 
 .gigname {
   position: absolute;
-  font-size: 1vw;
+  font-size: 1.2vw;
   margin-top: 32vw;
   margin-left: 0vw;
 }
@@ -59,7 +59,6 @@
   height: 27vw;
   width: 27vw;
   position: absolute;
-  background-image: url(./img/Image_11.png);
   display: block;
   margin-left: 1.4vw;
   margin-top: 1vw;
@@ -69,7 +68,6 @@
   height: 27vw;
   width: 22vw;
   position: absolute;
-  background-image: url(./img/Image_12.png);
   display: block;
   margin-left: 1.5vw;
   margin-top: 1.5vw;
@@ -79,7 +77,6 @@
   height: 27vw;
   width: 22vw;
   position: absolute;
-  background-image: url(./img/Image_13.png);
   display: block;
   margin-left: 1.5vw;
   margin-top: 1.2vw;
@@ -89,7 +86,6 @@
   height: 24vw;
   width: 22vw;
   position: absolute;
-  background-image: url(./img/Image_14.png);
   display: block;
   margin-left: 1.5vw;
   margin-top: 2vw;
@@ -97,4 +93,128 @@
 
 .space {
   height: 10vw;
+}
+
+.gig img {
+  position: relative;
+  overflow: hidden;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+@media (max-width: 800px) {
+  .gigname {
+    font-size: 2vw;
+    margin-top: 42vw;
+  }
+
+  .projects .one {
+    height: 40vw;
+    width: 40vw;
+    margin-left: 5vw;
+  }
+  .projects .two {
+    height: 40vw;
+    width: 35vw;
+  }
+
+  .projects .three {
+    height: 40vw;
+    width: 35vw;
+    margin-top: 0;
+    margin-left: 10vw;
+  }
+
+  .projects .four {
+    height: 39vw;
+    width: 35vw;
+    margin-left: 55vw;
+  }
+
+  .projects .one .gig {
+    height: 37vw;
+    width: 37vw;
+  }
+
+  .projects .two .gig {
+    height: 37vw;
+    width: 32vw;
+  }
+
+  .projects .three .gig {
+    height: 37vw;
+    width: 32vw;
+    position: absolute;
+    display: block;
+    margin-left: 1.5vw;
+    margin-top: 1.2vw;
+  }
+
+  .projects .four .gig {
+    height: 34vw;
+    width: 32vw;
+    position: absolute;
+    display: block;
+    margin-left: 1.5vw;
+    margin-top: 2vw;
+  }
+}
+
+@media (max-width: 400px) {
+  .projects {
+    display: block;
+    width: 100%;
+  }
+
+  .gigname {
+    font-size: 4vw;
+    margin-top: 92vw;
+  }
+
+  .projects .one {
+    height: 90vw;
+    width: 90vw;
+    margin-left: 4vw;
+  }
+  .projects .two {
+    height: 90vw;
+    width: 90vw;
+    margin-left: 4vw;
+    margin-top: 17vw;
+  }
+
+  .projects .three {
+    height: 90vw;
+    width: 90vw;
+    margin-left: 4vw;
+    margin-top: 17vw;
+  }
+
+  .projects .four {
+    height: 90vw;
+    width: 90vw;
+    margin-left: 4vw;
+    margin-top: 17vw;
+    margin-bottom: 10vw;
+  }
+
+  .projects .one .gig {
+    height: 87vw;
+    width: 87vw;
+  }
+
+  .projects .two .gig {
+    height: 87vw;
+    width: 87vw;
+  }
+
+  .projects .three .gig {
+    height: 87vw;
+    width: 87vw;
+  }
+
+  .projects .four .gig {
+    height: 87vw;
+    width: 87vw;
+  }
 }

@@ -49,7 +49,7 @@
   .bottomText span {
     font-size: 1.5vw;
     font-weight: 300;
-    width: 43vw;
+    width: 40vw;
   }
 }
 
@@ -76,4 +76,53 @@
 .linkChat span:hover:after {
   transform: scaleX(0);
   transform-origin: bottom right;
+}
+
+@media (max-width: 800px) {
+  #textOne {
+    font-size: 15vw;
+    padding: 0vw 5vw 0vw 12vw;
+  }
+  #textThree {
+    font-size: 15vw;
+  }
+
+  .bottomText span {
+    font-size: 2vw;
+    font-weight: 300;
+  }
+
+  .linkChat span:after {
+    width: 11vw;
+  }
+}
+
+@media (max-width: 400px) {
+  .meetText {
+    float: none;
+    margin-top: 10vw;
+  }
+
+  #textOne {
+    padding: 0vw 5vw 0vw 0vw;
+  }
+
+  .bottomText {
+    margin: 3vw 0 0 7vw;
+    width: auto;
+  }
+  .bottomText span {
+    width: 90vw;
+    font-size: 4vw;
+  }
+
+  .box {
+    height: 90vw;
+    width: 90vw;
+    margin-left: 3vw;
+  }
+
+  .linkChat span:after {
+    width: 22vw;
+  }
 }
