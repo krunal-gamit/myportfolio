@@ -13,16 +13,16 @@ function EighthFooter(){
                <span id='colName'>Stop By.</span>
                <span id='colDetail'>🌈 Working Remotly.</span>
                <span id='socialIcon'>
-                   <li><a target="_blank" href="https://www.instagram.com/krunalgamit_"><FaInstagram /></a></li>
-                   <li><a target="_blank" href="https://twitter.com/krunalgamit_"><FaTwitter /></a></li>
-                   <li><a target="_blank" href="https://www.facebook.com/krooksgeek"><FaFacebook /></a></li>
-                   <li><a target="_blank" href="https://github.com/krooksgeek"><FaGithub /></a></li>
-                   <li><a target="_blank" href="https://www.linkedin.com/in/krunal-gamit/"><FaLinkedin /></a></li>
+                   <li><a target="_blank" href="https://www.instagram.com/krunalgamit_"><FaInstagram className="secSocial" /></a></li>
+                   <li><a target="_blank" href="https://twitter.com/krunalgamit_"><FaTwitter className="secSocial" /></a></li>
+                   <li><a target="_blank" href="https://www.facebook.com/krooksgeek"><FaFacebook className="secSocial" /></a></li>
+                   <li><a target="_blank" href="https://github.com/krooksgeek"><FaGithub className="secSocial" /></a></li>
+                   <li><a target="_blank" href="https://www.linkedin.com/in/krunal-gamit/"><FaLinkedin className="secSocial" /></a></li>
                </span>
                </IconContext.Provider>
             </div>
             <div className='col2'>
-               <span id='colName'>Say Hi.</span>
+               <span id='colName'>Say Hi !</span>
                <span id='colDetail'><a href="mailto:krooksgeek@gmail.com">krooksgeek@gmail.com</a></span>
             </div>
             <div className='col3'>
