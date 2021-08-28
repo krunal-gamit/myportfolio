@@ -66,7 +66,7 @@ section .scroll.text1 {
 
 @media (max-width: 575px) {
   section .scroll div {
-    font-size: 14vw;
+    font-size: 14.1vw;
   }
 
   section .scroll div span {
