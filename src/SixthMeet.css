@@ -78,7 +78,7 @@
   transform-origin: bottom right;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1000px) {
   #textOne {
     font-size: 15vw;
     padding: 0vw 5vw 0vw 12vw;
@@ -97,7 +97,7 @@
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 575px) {
   .meetText {
     float: none;
     margin-top: 10vw;
