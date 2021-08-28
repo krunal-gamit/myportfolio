@@ -1,3 +1,5 @@
+@import url(//db.onlinewebfonts.com/c/685863138475bd81c7e5068082244fc5?family=GT+Super+Display+Medium);
+
 .projects {
   background-color: white;
   display: flex;
@@ -18,8 +20,8 @@
 }
 
 .gigname #ln {
-  font-family: GT Eesti Text Trial Rg;
-  font-weight: 10;
+  font-family: GT Super Display Medium;
+  font-weight: 700;
   opacity: 0.5;
 }
 

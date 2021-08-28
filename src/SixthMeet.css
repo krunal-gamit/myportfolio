@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Kaisei+Decol&display=swap");
+@import url(//db.onlinewebfonts.com/c/685863138475bd81c7e5068082244fc5?family=GT+Super+Display+Light);
 
 .meet {
   background-color: rgb(0, 0, 0);
@@ -21,7 +22,7 @@
 
 #textTwo {
   font-size: 10vw;
-  font-weight: 400;
+  font-weight: 200;
   font-family: Kaisei Decol;
   padding: 0 5vw 0 0;
 }
@@ -29,7 +30,7 @@
 #textThree {
   font-size: 10vw;
   font-weight: 100;
-  font-family: GT Super Ds Trial Lt;
+  font-family: GT Super Display Light;
 }
 
 .bottomText {
@@ -100,7 +101,7 @@
 @media (max-width: 575px) {
   .meetText {
     float: none;
-    margin-top: 10vw;
+    margin-top: 20vw;
   }
 
   #textOne {
@@ -108,7 +109,7 @@
   }
 
   .bottomText {
-    margin: 3vw 0 0 7vw;
+    margin: 7vw 0 0 7vw;
     width: auto;
   }
   .bottomText span {
@@ -120,6 +121,10 @@
     height: 90vw;
     width: 90vw;
     margin-left: 3vw;
+  }
+
+  .linkChat {
+    margin-top: 20px;
   }
 
   .linkChat span:after {

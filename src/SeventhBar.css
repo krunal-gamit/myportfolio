@@ -29,6 +29,11 @@
 }
 
 @media (max-width: 575px) {
+  .bar {
+    height: 45vw;
+    padding-top: 10vw;
+  }
+
   .minBar {
     height: 22vw;
   }
