@@ -15,7 +15,7 @@
   margin-left: 70px;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1000px) {
   .logo {
     font-family: Permanent Marker;
     font-size: 7vw;
@@ -44,7 +44,7 @@
   padding: 15px 20px 0px 20px;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 575px) {
   .rightHeader li {
     padding: 0;
   }

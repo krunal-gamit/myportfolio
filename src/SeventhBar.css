@@ -17,7 +17,7 @@
   margin-top: 4vw;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1000px) {
   .minBar {
     height: 12vw;
     margin: 12vw 4vw 0 4vw;
@@ -28,7 +28,7 @@
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 575px) {
   .minBar {
     height: 22vw;
   }
