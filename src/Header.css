@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+@import url(//db.onlinewebfonts.com/c/fa43ebe4503431e9238a963c3b339d37?family=Codec+Cold+Trial);
 
 .header {
   background-color: white;
@@ -17,7 +18,6 @@
 
 @media (max-width: 1000px) {
   .logo {
-    font-family: Permanent Marker;
     font-size: 7vw;
     margin-left: 0px;
     margin-top: -5px;
