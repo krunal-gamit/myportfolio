@@ -15,13 +15,13 @@
 
 #colName {
   font-size: 1.05vw;
-  font-family: GT Super Display Light;
+  font-family: GT Super Display Light, Raleway;
   font-weight: 600;
 }
 
 #colDetail {
   font-size: 1vw;
-  font-family: SF Pro Display;
+  font-family: SF Pro Display, Raleway;
   font-weight: 300;
   margin-top: 1vw;
 }

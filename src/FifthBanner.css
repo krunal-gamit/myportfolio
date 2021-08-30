@@ -7,7 +7,7 @@
 
 .bannerTitle {
   color: white;
-  font-family: Oswald;
+  font-family: Oswald, Raleway;
   font-weight: bolder;
   font-size: 4.5vw;
   display: inline-block;
@@ -27,4 +27,3 @@
   color: black;
   text-shadow: 0 -0.1vw white, 0.01vw 0 white, 0 0.1vw white, -0.2vw 0 white;
 }
-
