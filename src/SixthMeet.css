@@ -17,7 +17,7 @@
 #textOne {
   font-size: 10vw;
   font-weight: 100;
-  font-family: SF Pro Display;
+  font-family: SF Pro Display, Raleway;
   padding: 0vw 5vw 0vw 20vw;
 }
 
@@ -31,7 +31,7 @@
 #textThree {
   font-size: 10vw;
   font-weight: 100;
-  font-family: GT Super Display Light;
+  font-family: GT Super Display Light, Raleway;
 }
 
 .bottomText {

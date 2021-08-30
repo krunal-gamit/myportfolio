@@ -16,12 +16,12 @@
 }
 
 .gigname #fn {
-  font-family: SF Pro Display;
+  font-family: SF Pro Display, Raleway;
   font-weight: 500;
 }
 
 .gigname #ln {
-  font-family: GT Super Display Medium;
+  font-family: GT Super Display Medium, Raleway;
   font-weight: 700;
   opacity: 0.5;
 }
