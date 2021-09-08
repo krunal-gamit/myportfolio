@@ -12,7 +12,6 @@
   margin: 12vw 7vw 0 7vw;
 }
 
-
 #downArrow {
   font-family: Kaisei Decol;
   font-weight: 200;
@@ -40,14 +39,14 @@
 @media (max-width: 575px) {
   .bar {
     height: 45vw;
-    padding-top: 10vw;
   }
 
   .minBar {
-    height: 22vw;
+    overflow: hidden;
+    height: 25vw;
   }
   .minBar .barText {
     font-size: 7vw;
-    margin-top: 3vw;
+    margin-top: 1.5vw;
   }
 }

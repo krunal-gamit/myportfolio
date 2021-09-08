@@ -83,7 +83,7 @@
 @media (max-width: 1000px) {
   #textOne {
     font-size: 15vw;
-    padding: 0vw 5vw 0vw 12vw;
+    padding: 0vw 10vw 0vw 10vw;
   }
   #textThree {
     font-size: 15vw;
@@ -92,8 +92,12 @@
   .bottomText span {
     font-size: 2vw;
     font-weight: 300;
+    position: absolute;
+    margin-left: -40vw;
   }
-
+  .linkChat {
+    margin-top: 8vw;
+  }
   .linkChat span:after {
     width: 11vw;
   }
@@ -110,7 +114,7 @@
   }
 
   .bottomText {
-    margin: 7vw 0 0 7vw;
+    margin: 7vw 0vw 0vw 47vw;
     width: auto;
   }
   .bottomText span {
@@ -125,7 +129,8 @@
   }
 
   .linkChat {
-    margin-top: 20px;
+    margin-top: 10vw;
+    margin-bottom: 15vw;
   }
 
   .linkChat span:after {
