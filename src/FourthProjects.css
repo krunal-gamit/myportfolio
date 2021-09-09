@@ -1,4 +1,4 @@
-@import url("http://db.onlinewebfonts.com/c/685863138475bd81c7e5068082244fc5?family=GT+Super+Display+Light");
+@import url("http://db.onlinewebfonts.com/c/031a669fbaa1dbe04f0de01b7fc0e757?family=GT+Super+Display+Medium");
 @import url("http://db.onlinewebfonts.com/c/70c38766a71f8f7f0a477605da15fcd3?family=SF+Pro+Display");
 
 .projects {
@@ -22,7 +22,7 @@
 
 .gigname #ln {
   font-family: GT Super Display Medium, Raleway;
-  font-weight: 700;
+  font-weight: 200;
   opacity: 0.5;
 }
 
