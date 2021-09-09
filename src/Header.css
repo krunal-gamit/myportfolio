@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
-@import url(//db.onlinewebfonts.com/c/fa43ebe4503431e9238a963c3b339d37?family=Codec+Cold+Trial);
+@import url("http://fonts.cdnfonts.com/css/codec-cold");
 
 .header {
   background-color: white;
@@ -56,7 +56,7 @@
   padding: 2rem;
   display: block;
   font-size: 1.5vw;
-  font-family: Codec Cold Trial News, Raleway;
+  font-family: Codec Cold Trial, Raleway;
 }
 
 .rightHeader li a:hover {
