@@ -7,7 +7,7 @@ function FourthProjects(props){
             
                 
             <div className='one'>
-            <li class={`nav-item  ${
+            <span class={`nav-item  ${
                   props.location.pathname === "/airline-booking" ? "active" : ""
                 }`}><Link class="nav-link"  class="text-dark" to="/airline-booking">
     
@@ -17,12 +17,12 @@ function FourthProjects(props){
                     <div id='ln'>Full Stack</div>
                 </div>
                 </Link>
-            </li>
+            </span>
             </div>
 
             
             <div className='two'>
-            <li class={`nav-item  ${
+            <span class={`nav-item  ${
                   props.location.pathname === "/personal-portfolio1" ? "active" : ""
                 }`}><Link class="nav-link"  class="text-dark" to="/personal-portfolio1">
     
@@ -32,11 +32,11 @@ function FourthProjects(props){
                     <div id='ln'>UX/ UI</div>
                 </div>
                 </Link>
-            </li>
+            </span>
             </div>
 
             <div className='three'>
-            <li class={`nav-item  ${
+            <span class={`nav-item  ${
                   props.location.pathname === "/responsive-design" ? "active" : ""
                 }`}><Link class="nav-link"  class="text-dark" to="/responsive-design">
     
@@ -46,11 +46,11 @@ function FourthProjects(props){
                     <div id='ln'>UX/ UI</div>
                 </div>
                 </Link>
-                </li>
+                </span>
             </div>
 
             <div className='four'>
-            <li class={`nav-item  ${
+            <span class={`nav-item  ${
                   props.location.pathname === "/yt-downloader" ? "active" : ""
                 }`}><Link class="nav-link"  class="text-dark" to="/yt-downloader">
     
@@ -60,7 +60,7 @@ function FourthProjects(props){
                     <div id='ln'>Python App</div>
                 </div>
                 </Link>    
-                </li>
+                </span>
             </div>
                 <div className='space'></div>
         </div>
