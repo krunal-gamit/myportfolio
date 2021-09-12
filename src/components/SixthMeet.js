@@ -1,6 +1,7 @@
 import './SixthMeet.css'
+import { Link, withRouter } from "react-router-dom";
 
-function SixthMeet(){
+function SixthMeet(props){
     return(
         <div className='meet'>
             <div className='meetText'>
@@ -11,7 +12,14 @@ function SixthMeet(){
             <div className='bottomText'>
                 <span>The internet is not waiting for a new website. Let's come up with a solution. Feel free! to contact.</span>
                 <div className='linkChat'>
+
+                <li class={`nav-item  ${
+                  props.location.pathname === "/contact" ? "active" : ""
+                }`}><Link class="nav-link"  class="text-dark" to="/contact">
                     <span>Let's Chat&nbsp; &#8594;</span>
+                    </Link>
+                </li>
+
                 </div>
             </div>
         </div>
@@ -19,4 +27,4 @@ function SixthMeet(){
 
 }
 
-export default SixthMeet;
+export default withRouter(SixthMeet);
