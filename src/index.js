@@ -15,3 +15,15 @@ ReactDOM.render(
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
+
+
+export { default as Header } from "./components/Header";
+export { default as EighthFooter } from "./components/EighthFooter";
+export { default as Home } from "./components/Home";
+export { default as About } from "./components/About";
+export { default as Contact } from "./components/Contact";
+export { default as Playground } from "./components/Playground";
+export { default as ProjectOne } from "./components/ProjectOne";
+export { default as ProjectTwo } from "./components/ProjectTwo";
+export { default as ProjectThree } from "./components/ProjectThree";
+export { default as ProjectFour } from "./components/ProjectFour";

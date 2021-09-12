@@ -7,7 +7,9 @@
   justify-content: space-between;
   align-items: center;
   color: black;
-  margin-top: 0;
+  margin: 0;
+  padding: 0;
+  width: 100%;
 }
 
 .logo {
@@ -50,17 +52,11 @@
   }
 }
 
-.rightHeader li a {
+.rightHeader li {
   text-decoration: none;
   color: black;
   padding: 2rem;
   display: block;
   font-size: 1.5vw;
   font-family: Codec Cold Trial, Raleway;
-}
-
-.rightHeader li a:hover {
-}
-
-.active a {
 }
