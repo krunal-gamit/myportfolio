@@ -55,6 +55,10 @@
   margin: 0vw 0 2vw 60vw;
 }
 
+li {
+  list-style-type: none;
+}
+
 @media (max-width: 1000px) {
   .box {
     height: 40vw;
