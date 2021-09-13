@@ -4,16 +4,11 @@ import './ThirdBanner.css'
 function ThirdBanner(){
     return(
         <div className="bannerContainer">
-        <section>
-        <div className="scroll text1">
-        <div>
-             - Latest <span> Work - </span>Latest <span> Work - </span>
-            </div>
-            <div>
-             - Latest <span> Work - </span>Latest <span> Work - </span>
-            </div>
+        <div className="scroll-text1">
+        <span id='textOne'>Latest</span>
+                <span id='textTwo'>&#8594;</span>
+                <span id='textThree'>Work</span>
         </div>
-    </section>
     </div>
     );
 }

@@ -13,12 +13,12 @@ function SixthMeet(props){
                 <span>The internet is not waiting for a new website. Let's come up with a solution. Feel free! to contact.</span>
                 <div className='linkChat'>
 
-                <span class={`nav-item  ${
+                <li class={`nav-item  ${
                   props.location.pathname === "/contact" ? "active" : ""
                 }`}><Link class="nav-link"  class="text-dark" to="/contact">
                     <span>Let's Chat&nbsp; &#8594;</span>
                     </Link>
-                </span>
+                </li>
 
                 </div>
             </div>
