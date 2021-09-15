@@ -1,19 +1,20 @@
 .mainBody {
-  background-color: white;
-  color: black;
+  background-color: black;
+  color: white;
   text-align: center;
   z-index: 990;
 }
 
 .name {
-  font-size: 2vw;
+  font-size: 1.5vw;
   margin-left: 20vw;
+  display: none;
+  flex-direction: row;
 }
 
 .name span {
   margin-top: 2vw;
-  display: flex;
-  flex-direction: row;
+  
 }
 
 .tName {
@@ -22,7 +23,7 @@
 }
 
 .tName span {
-  margin-top: 0.01vw;
+  margin-top: 3vw;
   display: flex;
   flex-direction: column;
 }
@@ -43,13 +44,7 @@
   border-radius: 50%;
   position: absolute;
   background-color: #5cff5c;
-  outline: 0.05vw solid #5cff5c;
-  outline-offset: 2vw;
   transition: 0.5s ease-in-out;
-}
-
-#one:hover {
-  outline-offset: 3vw;
 }
 
 #two {
@@ -60,13 +55,7 @@
   margin-top: -10vw;
   border-radius: 50%;
   position: absolute;
-  outline: 0.05vw solid #f070a1;
-  outline-offset: 2vw;
   transition: 0.5s ease-in-out;
-}
-
-#two:hover {
-  outline-offset: 3vw;
 }
 
 #three {
@@ -77,12 +66,7 @@
   margin-top: -32vw;
   border-radius: 50%;
   position: absolute;
-  outline: 0.05vw solid #ffff00;
-  outline-offset: 2vw;
   transition: 0.5s ease-in-out;
-}
-#three:hover {
-  outline-offset: 3vw;
 }
 
 #four {
@@ -93,13 +77,7 @@
   margin-top: -30vw;
   border-radius: 50%;
   position: absolute;
-  outline: 0.05vw solid #16ffbd;
-  outline-offset: 2vw;
   transition: 0.5s ease-in-out;
-}
-
-#four:hover {
-  outline-offset: 3vw;
 }
 
 #five {
@@ -155,16 +133,16 @@
     font-size: 3vw;
   }
   .tName span {
-    font-size: 15vw;
+    font-size: 12vw;
   }
 
   #three {
-    margin-top: -52vw;
+    margin-top: -40vw;
   }
 
   #four {
-    margin-left: 25vw;
-    margin-top: -55vw;
+    margin-left: 5vw;
+    margin-top: -40vw;
   }
 
   .firstSocial {

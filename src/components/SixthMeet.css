@@ -22,7 +22,7 @@
 #textTwo {
   font-size: 10vw;
   font-weight: 200;
-  font-family: Kaisei Decol;
+  font-family: Kaisei Decol, serif;
   padding: 0 7vw 0 0;
 }
 
@@ -79,7 +79,12 @@ li {
 
 .linkChat span:hover:after {
   transform: scaleX(0);
+  overflow: hidden;
   transform-origin: bottom right;
+}
+
+#chatArr {
+  font-family: Kaisei Decol;
 }
 
 @media (max-width: 1000px) {

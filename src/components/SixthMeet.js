@@ -16,7 +16,7 @@ function SixthMeet(props){
                 <li class={`nav-item  ${
                   props.location.pathname === "/contact" ? "active" : ""
                 }`}><Link class="nav-link"  class="text-dark" to="/contact">
-                    <span>Let's Chat&nbsp; &#8594;</span>
+                    <span id="under">Let's Chat&nbsp;<a id="chatArr"> &#8594;</a></span>
                     </Link>
                 </li>
 

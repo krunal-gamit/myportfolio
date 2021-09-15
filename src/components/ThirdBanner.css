@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap");
 
 .bannerContainer {
   margin: 0;
@@ -7,13 +7,45 @@
   font-family: Raleway;
   overflow: hidden;
   background-size: cover;
-  background-color: white;
+  background-color: black;
 }
 
 .scroll-text1 {
+  color: white;
   margin-top: 7vw;
 }
 
 .scroll-text1 #textOne {
   padding: 0vw 7vw 0vw 10vw;
+}
+
+@media (max-width: 1000px) {
+  .scroll-text1 {
+    margin-top: 15vw;
+  }
+  .scroll-text1 #textOne {
+    font-size: 13vw;
+    padding: 0vw 5vw 0vw 5vw;
+  }
+  .scroll-text1 #textThree {
+    font-size: 13vw;
+  }
+}
+
+@media (max-width: 575px) {
+  .bannerContainer {
+    height: 30vh;
+  }
+  
+  .scroll-text1 {
+    margin-top: 20vw;
+  }
+
+  .scroll-text1 #textOne {
+    font-size: 13vw;
+    padding: 0vw 5vw 0vw 3vw;
+  }
+  .scroll-text1 #textThree {
+    font-size: 13vw;
+  }
 }

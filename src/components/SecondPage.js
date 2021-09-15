@@ -13,7 +13,7 @@ function SecondPage(props){
                   props.location.pathname === "/about" ? "active" : ""
                 }`}><Link class="nav-link"  class="text-dark" to="/about">
                 
-                    <span>About &nbsp; &#8594;</span>
+                    <span>About &nbsp; <a id="aboutArr"> &#8594;</a></span>
                     </Link>
                 </li>
                 </div>

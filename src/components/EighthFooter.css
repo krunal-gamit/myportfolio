@@ -72,11 +72,11 @@
   display: flex;
   flex-direction: row;
   margin-top: 2vw;
-  margin-left: 4vw;
+  margin-left: 4.7vw;
 }
 
 #socialIcon li {
-  padding-left: 3vw;
+  padding-left: 2vw;
   list-style-type: none;
 }
 
