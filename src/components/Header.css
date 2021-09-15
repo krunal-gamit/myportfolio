@@ -1,32 +1,34 @@
-@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
 @import url("http://fonts.cdnfonts.com/css/codec-cold");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap");
 
 .header {
-  background-color: white;
+  background-color: black;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color: black;
+  color: white;
   margin: 0;
   padding: 0;
   width: 100%;
 }
 
 .logo {
-  font-family: Permanent Marker, Raleway;
-  font-size: 4vw;
-  margin-left: 70px;
+  margin-top: 1.5rem;
 }
 
+.logo img {
+  width: 7vw;
+  height: 7vw;
+  margin-left: 7vw;
+}
+
+
 @media (max-width: 1000px) {
-  .logo {
-    font-size: 7vw;
-    margin-left: 0px;
-    margin-top: -5px;
+  .logo img {
+    margin-left: 5vw;
+    width: 10vw;
+    height: 10vw;
     overflow: hidden;
-  }
-  .logo span {
-    padding: 10vw;
   }
 }
 
@@ -50,11 +52,18 @@
   .rightHeader li {
     padding: 0;
   }
+
+  .logo img {
+    margin-left: 2vw;
+    width: 30vw;
+    height: 15vw;
+    overflow: hidden;
+  }
 }
 
 .rightHeader li {
   text-decoration: none;
-  color: black;
+  color: white;
   padding: 2rem;
   display: block;
   font-size: 1.5vw;

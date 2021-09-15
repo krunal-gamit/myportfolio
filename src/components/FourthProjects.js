@@ -9,7 +9,7 @@ function FourthProjects(props){
             <div className='one'>
             <span class={`nav-item  ${
                   props.location.pathname === "/airline-booking" ? "active" : ""
-                }`}><Link class="nav-link"  class="text-dark" to="/airline-booking">
+                }`}><Link class="nav-link"  class="text-light" to="/airline-booking">
     
                 <div className='gig'><img src='/img/Image_11.png'/></div>
                 <div className='gigname'>
@@ -24,7 +24,7 @@ function FourthProjects(props){
             <div className='two'>
             <span class={`nav-item  ${
                   props.location.pathname === "/personal-portfolio1" ? "active" : ""
-                }`}><Link class="nav-link"  class="text-dark" to="/personal-portfolio1">
+                }`}><Link class="nav-link"  class="text-light" to="/personal-portfolio1">
     
             <div className='gig'><img src='/img/Image_12.png'/></div>
                 <div className='gigname'>
@@ -38,7 +38,7 @@ function FourthProjects(props){
             <div className='three'>
             <span class={`nav-item  ${
                   props.location.pathname === "/responsive-design" ? "active" : ""
-                }`}><Link class="nav-link"  class="text-dark" to="/responsive-design">
+                }`}><Link class="nav-link"  class="text-light" to="/responsive-design">
     
                 <div className='gig'><img src='/img/Image_13.png'/><img src='/img/Image_14.png'/></div>
                 <div className='gigname'>
@@ -52,7 +52,7 @@ function FourthProjects(props){
             <div className='four'>
             <span class={`nav-item  ${
                   props.location.pathname === "/yt-downloader" ? "active" : ""
-                }`}><Link class="nav-link"  class="text-dark" to="/yt-downloader">
+                }`}><Link class="nav-link"  class="text-light" to="/yt-downloader">
     
                 <div className='gig'><img src='/img/Image_15.png'/></div>
                 <div className='gigname'>
