@@ -1,28 +1,92 @@
 import React from "react";
+import "./About.css"
+import SixthMeet from "./SixthMeet";
 
 function About() {
   return (
     <div className="about">
-      <div class="container">
-        <div class="row align-items-center my-5">
-          <div class="col-lg-7">
-            <img
-              class="img-fluid rounded mb-4 mb-lg-0"
-              src="http://placehold.it/900x400"
-              alt=""
-            />
-          </div>
-          <div class="col-lg-5">
-            <h1 class="font-weight-light">About</h1>
-            <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book.
-            </p>
-          </div>
+        <div className="aboutName">
+            <span id="name">Krunal Gamit</span>
+        </div>
+        <div className="aboutText">
+            <span id="abt-One">
+            I'm currently pursuing B.Tech Computer Science &#38; Engineering degree at Nirma University, Ahmedabad.
+            I love designing and developing web applications, 
+            I work on it till it becomes cool stuff. Apart from software, I like music. 
+            I'm quite an intermediate guitarist.
+            </span>
+            <span id="abt-Two">
+            I have a passion for developing better solutions and user experience that are impactful.
+            </span>
+            
+            <span id="resume"><button className="button1">RESUME</button></span>
+        </div>
+
+      
+      <div className="toolsSec">
+        <span id="toolTitle">Tech &#38; Tools</span>
+        <div id="tools">
+          <span className="toolrow">
+                <ul>
+                  <li>Java</li>
+                  <li>C</li>
+                  <li>Python</li>
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>PHP</li>
+                  <li>Reactjs</li>
+                  <li>Framer Motion</li>
+                </ul>
+                <ul>
+                  <li>Spline</li>
+                  <li>Adobe XD</li>
+                  <li>Figma</li>
+                  <li>Photoshop</li>
+                  <li>Illustrator</li>
+                  <li>After Effects</li>
+                  <li>Premier Pro</li>
+                </ul>
+                <ul>
+                  <li>Git</li>
+                  <li>Heroku</li>
+                  <li>Metlify</li>
+                  <li>Docker</li>
+                  <li>Google Cloud</li>
+                </ul>
+          </span>
         </div>
       </div>
+
+
+      <div className="toolsSec">
+        <span id="toolTitle">Current Favorites</span>
+        <div id="tools2">
+          <span className="toolrow2">
+                <ul>
+                  <li>Programming Language</li>
+                  <li>Editor</li>
+                  <li>Version Control</li>
+                  <li>Design Framework</li>
+                  <li>Design Tool</li>
+                  <li>Fonts</li>
+                  <li>UX/UI Inspiration</li>
+                  
+                </ul>
+                <ul>
+                  <li>Java</li>
+                  <li>Vim, VS Code, Sublime</li>
+                  <li>Git, github</li>
+                  <li>Reactjs</li>
+                  <li>XD, Figma</li>
+                  <li>Codec, SF Pro Display, GT Super Display, Raleway</li>
+                  <li>Awwwards</li>
+                </ul>
+          </span>
+        </div>
+      </div>
+
+      <SixthMeet/>
+      <div className="space"></div>
     </div>
   );
 }

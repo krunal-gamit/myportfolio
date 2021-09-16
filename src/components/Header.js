@@ -9,7 +9,7 @@ function Header(props) {
         <nav class="">
         <div className="header">
             <div className="logo">
-                <img src="logo-k.svg"></img>
+                <img alt="kIg" src="logo-k.sv"></img>
             </div>
             <div className="menu-btn">
                 <div className="menu-btn__burger"></div>
