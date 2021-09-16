@@ -1,0 +1,79 @@
+@import url("https://db.onlinewebfonts.com/c/1a0f9c82ae37cc35dc3c8e6c81ea95a4?family=Larsseit");
+@import url("http://db.onlinewebfonts.com/c/70c38766a71f8f7f0a477605da15fcd3?family=SF+Pro+Display");
+
+.about {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: white;
+}
+
+.about #name {
+  font-family: Larsseit, Arial;
+  font-size: 5vw;
+}
+
+.aboutText {
+  margin-top: 1.4vw;
+  display: flex;
+  flex-direction: column;
+  margin-left: 25vw;
+  font-family: SF Pro Display, sans-serif, Arial;
+}
+
+.aboutText #abt-One {
+  font-size: 1.5vw;
+}
+
+.aboutText #abt-Two {
+  margin-top: 1vw;
+  font-size: 1.2vw;
+}
+
+.button1 {
+  margin-top: 2vw;
+  font-family: Larsseit, Arial;
+  font-size: 1vw;
+  background-color: black;
+  color: white;
+  border-radius: 5px 5px;
+  border: 2px solid white;
+  padding: 0.1vw 1vw;
+  cursor: pointer;
+}
+
+.button1:hover {
+  transition: 0.5s ease-in;
+  background-color: white;
+  color: black;
+}
+
+.toolsSec {
+  margin-top: 7vw;
+  display: flex;
+  flex-direction: row;
+}
+
+.toolsSec #toolTitle {
+  font-family: Larsseit, Arial;
+  font-size: 3vw;
+}
+
+.toolsSec #tools {
+  margin: 5vw 0 0 0;
+  font-size: 1.4vw;
+  font-family: SF Pro Display, sans-serif, Arial;
+}
+
+.toolrow {
+  display: flex;
+  flex-direction: row;
+}
+
+.toolrow ul {
+  margin-left: 8vw;
+}
+
+.toolrow ul li {
+  margin-top: 1.5vw;
+}

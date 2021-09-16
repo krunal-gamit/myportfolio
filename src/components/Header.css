@@ -1,5 +1,5 @@
 @import url("http://fonts.cdnfonts.com/css/codec-cold");
-@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap");
 
 .header {
   background-color: black;
@@ -13,21 +13,24 @@
 }
 
 .logo {
-  margin-top: 1.5rem;
+  margin-top: 1rem;
 }
 
 .logo img {
   width: 7vw;
   height: 7vw;
   margin-left: 7vw;
+  font-family: Josefin Sans;
+  font-size: 5vw;
+  font-weight: bolder;
 }
-
 
 @media (max-width: 1000px) {
   .logo img {
     margin-left: 5vw;
     width: 10vw;
     height: 10vw;
+    font-size: 7vw;
     overflow: hidden;
   }
 }
@@ -37,7 +40,7 @@
 }
 
 .rightHeader ul {
-  margin: 0;
+  margin-top: 1.5vw;
   padding: 0;
   display: flex;
 }
@@ -45,7 +48,7 @@
 .rightHeader li {
   list-style-type: none;
   justify-content: space-between;
-  padding: 15px 20px 0px 20px;
+  padding: 1vw 2vw 0vw 2vw;
 }
 
 @media (max-width: 575px) {
@@ -58,6 +61,7 @@
     width: 30vw;
     height: 15vw;
     overflow: hidden;
+    font-size: 10vw;
   }
 }
 
