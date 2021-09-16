@@ -13,11 +13,14 @@
   font-size: 5vw;
 }
 
+.aboutName {
+  margin-left: 17vw;
+}
+
 .aboutText {
-  margin-top: 1.4vw;
+  margin: 1.4vw 1vw 0 50vw;
   display: flex;
   flex-direction: column;
-  margin-left: 25vw;
   font-family: SF Pro Display, sans-serif, Arial;
 }
 
@@ -49,7 +52,7 @@
 }
 
 .toolsSec {
-  margin-top: 7vw;
+  margin: 7vw 0 0 17vw;
   display: flex;
   flex-direction: row;
 }
@@ -60,8 +63,8 @@
 }
 
 .toolsSec #tools {
-  margin: 5vw 0 0 0;
-  font-size: 1.4vw;
+  margin: 5vw 0 0 16vw;
+  font-size: 1.2vw;
   font-family: SF Pro Display, sans-serif, Arial;
 }
 
@@ -71,9 +74,31 @@
 }
 
 .toolrow ul {
-  margin-left: 8vw;
+  padding-right: 5vw;
 }
 
 .toolrow ul li {
   margin-top: 1.5vw;
+  text-decoration: none;
+}
+
+
+.toolsSec #tools2 {
+    margin: 5vw 0 0 10vw;
+    font-size: 1.2vw;
+    font-family: SF Pro Display, sans-serif, Arial;
+  }
+
+.toolrow2 {
+  display: flex;
+  flex-direction: row;
+}
+
+.toolrow2 ul {
+  padding-right: 2vw;
+}
+
+.toolrow2 ul li {
+  margin-top: 1.5vw;
+  text-decoration: none;
 }
