@@ -5,6 +5,7 @@ import SixthMeet from "./SixthMeet";
 function About() {
   return (
     <div className="about">
+      <div className="about-me">
         <div className="aboutName">
             <span id="name">Krunal Gamit</span>
         </div>
@@ -21,7 +22,7 @@ function About() {
             
             <span id="resume"><button className="button1">RESUME</button></span>
         </div>
-
+        </div>
       
       <div className="toolsSec">
         <span id="toolTitle">Tech &#38; Tools</span>
