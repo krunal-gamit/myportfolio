@@ -17,7 +17,7 @@ function Contact() {
       
       <div className="contactText">
           <span id="cText">
-          The internet is not waiting for a new website.<br/> Let's come up with a solution. <br/>Feel free! to contact.
+          <p>The internet is not waiting for a new website.<br/> Let's come up with a solution. <br/>Feel free to contact.</p>
           </span>
       </div>
 
