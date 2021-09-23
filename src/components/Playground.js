@@ -1,27 +1,53 @@
 import React from "react";
+import "./Playground.css"
+import FourthProjects from "./FourthProjects";
+import SixthMeet from "./SixthMeet";
+
 
 function Playground() {
+
+
+  const ColoredLine = ({ color }) => (
+    <hr
+        style={{
+            backgroundColor: color,
+            height: 0.1,
+            opacity:0.4
+        }}
+    />
+);
+
   return (
     <div className="playground">
-      <div class="container">
-        <div class="row align-items-center my-5">
-          <div class="col-lg-7">
-            <img
-              class="img-fluid rounded mb-4 mb-lg-0"
-              src="http://placehold.it/900x400"
-              alt=""
-            />
-          </div>
-          <div class="col-lg-5">
-            <h1 class="font-weight-light">Playground</h1>
-            <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book.
-            </p>
-          </div>
+      <div className="playgroundPage">
+        <div className="playTitle">
+          <span id="pTitle">Playground</span>
         </div>
+        <div className="playText">
+          <span id="pText">"less talking and more doing"
+          <br/>A collection of dev. and designs. 
+          Mix of practice and side projects.</span>
+        </div>
+        <FourthProjects/>
+        <div className="playList">
+          <span>
+          <ul>
+                  <ColoredLine color="white"/>
+                  <li>Airline Management System</li>
+                  <ColoredLine color="white"/>
+                  <li>Stock Price Prediction</li>
+                  <ColoredLine color="white"/>
+                  <li>Hospital Management System</li>
+                  <ColoredLine color="white"/>
+                  <li>Responsive Design</li>
+                  <ColoredLine color="white"/>
+                  <li></li>
+                  
+                </ul>
+          </span>
+        </div>
+        <SixthMeet/>
+        <div className="space"></div>
       </div>
     </div>
   );
