@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+
+.contact {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: white;
+  font-size: 7vw;
+  font-family: Poppins;
+}
+
+.marquee {
+  position: relative;
+  width: auto;
+  max-width: 100%;
+  height: 12vw;
+  overflow: hidden;
+  margin-top: 2vw;
+}
+
+.track {
+  position: absolute;
+  white-space: nowrap;
+  will-change: transform;
+  animation: marquee 25s linear infinite;
+}
+
+.track span a {
+  color: white;
+  text-decoration: none;
+}
+
+.track span a:hover {
+  color: blue;
+}
+
+.track span:hover {
+  text-decoration: none;
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
