@@ -1,28 +1,48 @@
 import React from "react";
+import "./Contact.css"
+
 
 function Contact() {
+  const ColoredLine = ({ color }) => (
+    <hr
+        style={{
+            backgroundColor: color,
+            height: 0.1,
+            opacity:0.4
+        }}
+    />
+);
   return (
     <div className="contact">
-      <div class="container">
-        <div class="row align-items-center my-5">
-          <div class="col-lg-7">
-            <img
-              class="img-fluid rounded mb-4 mb-lg-0"
-              src="http://placehold.it/900x400"
-              alt=""
-            />
-          </div>
-          <div class="col-lg-5">
-            <h1 class="font-weight-light">Contact</h1>
-            <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book.
-            </p>
-          </div>
-        </div>
+      
+      <div className="contactText">
+          <span id="cText">
+          The internet is not waiting for a new website.<br/> Let's come up with a solution. <br/>Feel free! to contact.
+          </span>
       </div>
+
+      <ColoredLine color="white"/>
+      <div class="marquee">
+  <div class="track">
+    <div class="content">
+      &nbsp;<span><a id="aboutArr"> &#8594;</a> <a target="_blank" href="https://www.instagram.com/krunalgamit_">INSTAGRAM </a></span>
+      <span><a id="aboutArr"> &#8594;</a> <a target="_blank" href="https://twitter.com/krunalgamit_">TWITTER </a></span>
+      <span><a id="aboutArr"> &#8594;</a> <a target="_blank" href="https://www.facebook.com/krooksgeek">FACEBOOK </a></span>
+      <span><a id="aboutArr"> &#8594;</a> <a target="_blank" href="https://github.com/krooksgeek">GITHUB</a></span>
+      <span><a id="aboutArr"> &#8594;</a> <a target="_blank" href="https://www.linkedin.com/in/krunal-gamit/">LINKEDIN </a></span>
+      <span><a id="aboutArr"> &#8594;</a> <a target="_blank" href="mailto:krooksgeek@gmail.com">KROOKSGEEK@GMAIL</a></span>
+
+      <span><a id="aboutArr"> &#8594;</a> <a target="_blank" href="https://www.instagram.com/krunalgamit_">INSTAGRAM </a></span>
+      <span><a id="aboutArr"> &#8594;</a> <a target="_blank" href="https://twitter.com/krunalgamit_">TWITTER </a></span>
+      <span><a id="aboutArr"> &#8594;</a> <a target="_blank" href="https://www.facebook.com/krooksgeek">FACEBOOK </a></span>
+      <span><a id="aboutArr"> &#8594;</a> <a target="_blank" href="https://github.com/krooksgeek">GITHUB</a></span>
+      <span><a id="aboutArr"> &#8594;</a> <a target="_blank" href="https://www.linkedin.com/in/krunal-gamit/">LINKEDIN </a></span>
+      <span><a id="aboutArr"> &#8594;</a> <a target="_blank" href="mailto:krooksgeek@gmail.com">KROOKSGEEK@GMAIL</a></span>
+
+    </div>
+  </div>
+</div>
+<ColoredLine color="white"/>
     </div>
   );
 }
