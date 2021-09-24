@@ -43,6 +43,7 @@ function Contact() {
   </div>
 </div>
 <ColoredLine color="white"/>
+<div className="spacing"></div>
     </div>
   );
 }
