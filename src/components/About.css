@@ -164,7 +164,7 @@
   }
 
   .about #name {
-    font-size: 7vw;
+    font-size: 8vw;
 
   }
   .aboutText {
@@ -172,43 +172,43 @@
   }
 
   .aboutText #abt-One {
-    font-size: 3vw;
-    width: 85vw;
+    font-size: 3.8vw;
+    width: 87vw;
   }
 
   .aboutText #abt-Two {
-    margin-top: 2vw;
-    font-size: 1.7vw;
+    margin-top: 4vw;
+    font-size: 3.1vw;
   }
 
   .button1 {
-    margin-top: 3vw;
-    font-size: 1.2vw;
+    margin-top: 6vw;
+    font-size: 2.2vw;
     border-radius: 5px 5px;
-    padding: 0.4vw 1.7vw;
+    padding: 1vw 4vw;
   }
 
   .toolsSec {
-    margin: 7vw 0 0 17vw;
+    margin: 15vw 0 0 7vw;
     display: block;
   }
   
   .toolsSec #toolTitle {
-    font-size: 4vw;
+    font-size: 7vw;
   }
   
   .toolsSec #tools {
     margin: 3vw 0 0 0vw;
-    font-size: 1.7vw;
+    font-size: 3vw;
   }
 
   .toolrow ul {
-    padding-right: 15vw;
+    padding-right: 13vw;
   }
 
   .toolsSec #tools2 {
     margin: 5vw 0 0 0vw;
-    font-size: 1.7vw;
+    font-size: 3vw;
   }
   
   .toolrow2 ul {
