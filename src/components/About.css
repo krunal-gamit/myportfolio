@@ -82,12 +82,11 @@
   text-decoration: none;
 }
 
-
 .toolsSec #tools2 {
-    margin: 5vw 0 0 10vw;
-    font-size: 1.2vw;
-    font-family: SF Pro Display, sans-serif, Arial;
-  }
+  margin: 5vw 0 0 10vw;
+  font-size: 1.2vw;
+  font-family: SF Pro Display, sans-serif, Arial;
+}
 
 .toolrow2 {
   display: flex;
@@ -101,4 +100,118 @@
 .toolrow2 ul li {
   margin-top: 1.5vw;
   text-decoration: none;
+}
+
+@media (max-width: 1000px) {
+
+  .about #name {
+    font-size: 5.5vw;
+  }
+
+  .aboutText {
+    margin: 1.4vw 1vw 0 17.5vw;
+  }
+
+  .aboutText #abt-One {
+    font-size: 2vw;
+    width: 65vw;
+  }
+
+  .aboutText #abt-Two {
+    margin-top: 2vw;
+    font-size: 1.7vw;
+  }
+
+  .button1 {
+    margin-top: 3vw;
+    font-size: 1.2vw;
+    border-radius: 5px 5px;
+    padding: 0.4vw 1.7vw;
+  }
+
+  .toolsSec {
+    margin: 7vw 0 0 17vw;
+    display: block;
+  }
+  
+  .toolsSec #toolTitle {
+    font-size: 4vw;
+  }
+  
+  .toolsSec #tools {
+    margin: 3vw 0 0 0vw;
+    font-size: 1.7vw;
+  }
+
+  .toolrow ul {
+    padding-right: 15vw;
+  }
+
+  .toolsSec #tools2 {
+    margin: 5vw 0 0 0vw;
+    font-size: 1.7vw;
+  }
+  
+  .toolrow2 ul {
+    padding-right: 8vw;
+  }
+}
+
+@media (max-width: 575px) {
+
+  .aboutName {
+    margin: 4vw 0 0 25vw;
+  }
+
+  .about #name {
+    font-size: 8vw;
+
+  }
+  .aboutText {
+    margin: 1.4vw 1vw 0 7vw;
+  }
+
+  .aboutText #abt-One {
+    font-size: 3.8vw;
+    width: 87vw;
+  }
+
+  .aboutText #abt-Two {
+    margin-top: 4vw;
+    font-size: 3.1vw;
+  }
+
+  .button1 {
+    margin-top: 6vw;
+    font-size: 2.2vw;
+    border-radius: 5px 5px;
+    padding: 1vw 4vw;
+  }
+
+  .toolsSec {
+    margin: 15vw 0 0 7vw;
+    display: block;
+  }
+  
+  .toolsSec #toolTitle {
+    font-size: 7vw;
+  }
+  
+  .toolsSec #tools {
+    margin: 3vw 0 0 0vw;
+    font-size: 3vw;
+  }
+
+  .toolrow ul {
+    padding-right: 13vw;
+  }
+
+  .toolsSec #tools2 {
+    margin: 5vw 0 0 0vw;
+    font-size: 3vw;
+  }
+  
+  .toolrow2 ul {
+    padding-right: 8vw;
+  }
 }
