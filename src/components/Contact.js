@@ -8,7 +8,7 @@ function Contact() {
         style={{
             backgroundColor: color,
             height: 0.1,
-            opacity:0.4
+            opacity: 0.5
         }}
     />
 );

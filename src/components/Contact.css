@@ -8,7 +8,6 @@
   color: white;
   font-size: 7vw;
 }
-
 .contactText {
   height: auto;
   width: 70vw;
@@ -66,4 +65,61 @@
 
 .spacing {
   height: 5vw;
+}
+
+@media (max-width: 1200px) {
+  .contactText {
+    margin: 15vw 0 15vw 15vw;
+  }
+
+  #cText {
+    font-size: 3.5vw;
+  }
+
+  .spacing {
+    height: 15vw;
+  }
+}
+
+@media (max-width: 1000px) {
+  .contactText {
+    width: 90vw;
+    margin: 20vw 0 20vw 5vw;
+  }
+
+  #cText {
+    font-size: 4.5vw;
+  }
+
+  .spacing {
+    height: 15vw;
+  }
+}
+
+@media (max-width: 575px) {
+  .contact {
+    margin: 0;
+    padding: 0 0 5vw 0;
+    background-color: black;
+    color: white;
+    font-size: 8vw;
+  }
+
+  .contactText {
+    width: 100vw;
+    margin: 20vw 0 20vw -2vw;
+  }
+
+  #cText {
+    font-size: 4.8vw;
+  }
+
+  .spacing {
+    height: 10vw;
+  }
+
+  .marquee {
+    height: 14vw;
+    margin-top: 4vw;
+  }
 }
