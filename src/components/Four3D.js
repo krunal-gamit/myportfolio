@@ -7,11 +7,11 @@ function Four3D(){
             
         </div>
             <div className='contentText'>
-                <span id="textone">Loading....
+                <span id="textone">
                     <br></br></span>
                     <span id="midtext"> </span> <br></br>
                 <span id="texttwo">
-                    (..)
+                    
                 </span>
             </div>
         </div>
