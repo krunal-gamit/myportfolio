@@ -12,7 +12,10 @@ function ProjectOne() {
           <span id="pTitle">Airline Management System</span>
         </div>
         <div className="proImage">
-          
+        </div>
+
+        <div className="">
+
         </div>
 
       </div>
