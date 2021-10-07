@@ -2,6 +2,23 @@ import './FirstPage.css'
 import {FaLinkedin, FaGithub} from "react-icons/fa";
 import {SiGmail} from "react-icons/si";
 import { IconContext } from 'react-icons/lib';
+import { motion } from 'framer-motion';
+
+const ContainerVariants = {
+    initial: {},
+    animate: {}
+  };
+
+const HVariants = {
+    initial: { scale: 0.7 },
+    animate: { scale: 1},
+    transition: {
+      type: "tween",
+      duration: "2",
+      delay: "10"
+    }
+  };
+
 
 function FirstPage(){
     return(
@@ -9,12 +26,19 @@ function FirstPage(){
             <div className='name'>
                 <span>Krunal Gamit</span>
             </div>
-            <div className='tName'>
-                <span>&lt;designer/&gt;<br></br> .developer</span>
-            </div>
+            <motion.div
+            variants={ContainerVariants}
+            initial="initial"
+            animate="animate"
+            className='tName'
+            >
+                <motion.span 
+                variants={HVariants}
+                >&lt;designer/&gt;<br></br> .developer</motion.span>
+            </motion.div>
             <div className='shapes'>
             <IconContext.Provider value={{size: "2.5vw"}} >
-                <div id='one' ></div>
+                <div id='one'></div>
                 <div id='two'></div>
                 <div id='three'></div>
                 <div id='four'></div>

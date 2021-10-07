@@ -19,6 +19,7 @@
 .tName {
   font-size: 8.5vw;
   font-weight: bolder;
+  overflow: hidden;
 }
 
 .tName span {
