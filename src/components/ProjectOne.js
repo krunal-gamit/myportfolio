@@ -1,6 +1,20 @@
 import React from "react";
 import "./Projects.css"
 
+
+const ColoredLine = ({ color }) => (
+  <hr
+      style={{
+          backgroundColor: color,
+          height: 0.1,
+          opacity: 0.4,
+          marginLeft:70,
+          marginRight:70
+      }}
+  />
+);
+
+
 function ProjectOne() {
   return (
     <div className="airline-booking">
@@ -14,9 +28,20 @@ function ProjectOne() {
         <div className="proImage">
         </div>
 
-        <div className="">
-
+        <div className="proDesc">
+          <span>Airline Management System which provides a platform to manage ticket booking, 
+track flight status, manage customer and Employee accounts.  Take feedback and record 
+complaints, and management of companys' resources. </span>
         </div>
+
+
+        <div className="proDate">
+          <span id="title">Project Date</span>
+          <span id="date">Oct 2020</span>
+        </div>
+
+      <ColoredLine color="white"/>
+
 
       </div>
     </div>
