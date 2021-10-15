@@ -4,10 +4,33 @@ import { Link, withRouter } from "react-router-dom";
 import "./Header.css"
 import "./FirstPage.css"
 
+import { motion } from 'framer-motion';
+
+const  fadeInVariants = {
+  initial:{
+      y:-60,
+      opacity: 0,
+  },
+  animate: {
+      y:0,
+      opacity:1,
+  transition:{
+      duration: 0.3,
+      ease: "easeInOut",
+  },
+  },
+};
+
+
+
 function Header(props) {
     return(
         <nav class="">
-        <div className="header">
+        <motion.div 
+        variants={fadeInVariants}
+        initial="initial"
+        animate="animate"
+        className="header">
             <div className="logo">
                 <span id="logoo">kIg</span>
             </div>
@@ -41,7 +64,7 @@ function Header(props) {
 
                 </ul>
             </div>
-        </div>
+        </motion.div>
         </nav>
     );
 }
