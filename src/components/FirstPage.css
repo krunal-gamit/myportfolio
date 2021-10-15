@@ -41,8 +41,8 @@
 }
 
 #one {
-  height: 1vw;
-  width: 1vw;
+  height: 2vw;
+  width: 2vw;
   margin-left: 10vw;
   margin-top: -10vw;
   border-radius: 50%;
@@ -52,8 +52,8 @@
 }
 
 #two {
-  height: 1vw;
-  width: 1vw;
+  height: 2vw;
+  width: 2vw;
   background-color: #f070a1;
   margin-left: 85vw;
   margin-top: -10vw;
@@ -63,8 +63,8 @@
 }
 
 #three {
-  height: 1vw;
-  width: 1vw;
+  height: 2vw;
+  width: 2vw;
   background-color: #ffff00;
   margin-left: 90vw;
   margin-top: -32vw;
@@ -74,8 +74,8 @@
 }
 
 #four {
-  height: 1vw;
-  width: 1vw;
+  height: 2vw;
+  width: 2vw;
   background-color: #16ffbd;
   margin-left: 5vw;
   margin-top: -30vw;
