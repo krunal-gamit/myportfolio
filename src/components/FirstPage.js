@@ -59,8 +59,96 @@ const  shapeWrapper = {
 };
 
 
+const shapeOne ={
+    initial: {},
+    animate: (i)=> ({
+        y: [0, 120, 0, -120, 0],
+        transition:{
+            delay:0.2,
+            duration: 3,
+            ease:"linear",
+            repeat:Infinity,
+        },
+    }),
+};
+
+const shapeTwo ={
+    initial: {},
+    animate: (i)=> ({
+        y: [120,0,-120,0, 120],
+        transition:{
+            delay:0.2,
+            duration: 3,
+            ease:"linear",
+            repeat:Infinity,
+        },
+    }),
+};
+
+const shapeThree ={
+    initial: {},
+    animate: (i)=> ({
+        y: [0, 100,0,-100, 0],
+        transition:{
+            delay:0,
+            duration: 6,
+            ease:"linear",
+            repeat:Infinity,
+        },
+    }),
+};
+const shapeFour ={
+    initial: {},
+    animate: (i)=> ({
+        y: [100, 0, -100, 0, 100],
+        transition:{
+            delay:0.3,
+            duration: 7,
+            ease:"linear",
+            repeat:Infinity,
+        },
+    }),
+};
 
 
+const shapeiOne ={
+    initial: {},
+    animate:{
+        y: [0, -4, 0, 4, 0],
+        transition:{
+            delay:0.1,
+            duration: 3,
+            ease:"linear",
+            repeat:Infinity,
+        },
+    },
+};
+
+const shapeiTwo ={
+    initial: {},
+    animate:{
+        y: [0, -4, 0, 4, 0],
+        transition:{
+            delay:0.3,
+            duration:3,
+            ease:"linear",
+            repeat:Infinity,
+        },
+    },
+};
+
+const shapeiThree ={
+    initial: {},
+    animate:{
+        y: [0, -4, 0, 4, 0],
+        transition:{
+            delay:0.5,
+            duration: 3,
+            ease:"linear",
+            repeat:Infinity,
+        },
+    },
+};
 
 function FirstPage(){
     return(
@@ -85,7 +173,6 @@ function FirstPage(){
             </motion.div>
             
             <motion.div 
-            
             variants={shapeContainer}
             initial="initial" animate="animate"
 
@@ -94,14 +181,13 @@ function FirstPage(){
             <IconContext.Provider value={{size: "2.5vw"}} >
 
             
-                <motion.div variants={shapeWrapper}  id='one'></motion.div>
-                <motion.div variants={shapeWrapper} id='two'></motion.div>
-                <motion.div variants={shapeWrapper} id='three'></motion.div>
-                <motion.div variants={shapeWrapper} id='four'></motion.div>
-                <motion.div variants={shapeWrapper} id='five'><a target="_blank" href="https://www.linkedin.com/in/krunal-gamit/"><FaLinkedin color="#0e76a8" className='firstSocial'/></a></motion.div>
-                <motion.div variants={shapeWrapper} id='six'><a target="_blank" href="https://github.com/krooksgeek"><FaGithub color="white" className='firstSocial' /></a></motion.div>
-                <motion.div variants={shapeWrapper} id='seven'><a target="_blank" href="mailto:krooksgeek@gmail.com"><SiGmail color="#bb001b" className='firstSocial' /></a></motion.div>
-                
+            <motion.div variants={shapeWrapper} ><motion.div variants={shapeOne} id='one'></motion.div></motion.div>
+                <motion.div variants={shapeWrapper} ><motion.div variants={shapeTwo} id='two'></motion.div></motion.div>
+                <motion.div variants={shapeWrapper}><motion.div variants={shapeThree}  id='three'></motion.div></motion.div>
+                <motion.div variants={shapeWrapper}><motion.div variants={shapeFour}  id='four'></motion.div></motion.div>
+                <motion.div variants={shapeWrapper}><motion.div variants={shapeiOne} whileHover={{scale: 1.2}} id='five'><a target="_blank" href="https://www.linkedin.com/in/krunal-gamit/"><FaLinkedin color="#0e76a8" className='firstSocial'/></a></motion.div></motion.div>
+                <motion.div variants={shapeWrapper}><motion.div variants={shapeiTwo} whileHover={{scale: 1.2}} id='six'><a target="_blank" href="https://github.com/krooksgeek"><FaGithub color="white" className='firstSocial' /></a></motion.div></motion.div>
+                <motion.div variants={shapeWrapper}><motion.div variants={shapeiThree} whileHover={{scale: 1.2}} id='seven'><a target="_blank" href="mailto:krooksgeek@gmail.com"><SiGmail color="#bb001b" className='firstSocial' /></a></motion.div></motion.div>
             </IconContext.Provider>
             </motion.div>
         </div>
