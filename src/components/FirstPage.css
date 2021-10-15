@@ -5,6 +5,10 @@
   z-index: 990;
 }
 
+.fpage {
+  overflow: hidden;
+}
+
 .name {
   font-size: 1.5vw;
   margin-left: 20vw;
