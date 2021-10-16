@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Kaisei+Decol&display=swap");
 @import url("http://db.onlinewebfonts.com/c/70c38766a71f8f7f0a477605da15fcd3?family=SF+Pro+Display");
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap");
 .bar {
   height: 36vw;
   background-color: rgb(0, 0, 0);
@@ -12,9 +12,17 @@
   margin: 12vw 7vw 0 7vw;
 }
 
+.minBar div {
+  background-color: white;
+}
+
 #downArrow {
   font-family: Kaisei Decol;
   font-weight: 200;
+}
+
+.barText span {
+  background-color: white;
 }
 
 .minBar .barText {
