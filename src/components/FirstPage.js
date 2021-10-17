@@ -62,7 +62,7 @@ const  shapeWrapper = {
 const shapeOne ={
     initial: {},
     animate: (i)=> ({
-        y: [0, 120, 0, -120, 0],
+        y: [0, 40, 0, -40, 0],
         transition:{
             delay:0.2,
             duration: 3,
@@ -75,7 +75,7 @@ const shapeOne ={
 const shapeTwo ={
     initial: {},
     animate: (i)=> ({
-        y: [120,0,-120,0, 120],
+        y: [40,0,-40,0, 40],
         transition:{
             delay:0.2,
             duration: 3,
@@ -88,7 +88,7 @@ const shapeTwo ={
 const shapeThree ={
     initial: {},
     animate: (i)=> ({
-        y: [0, 100,0,-100, 0],
+        y: [0, 30,0,-30, 0],
         transition:{
             delay:0,
             duration: 6,
@@ -100,7 +100,7 @@ const shapeThree ={
 const shapeFour ={
     initial: {},
     animate: (i)=> ({
-        y: [100, 0, -100, 0, 100],
+        y: [30, 0, -30, 0, 30],
         transition:{
             delay:0.3,
             duration: 7,
