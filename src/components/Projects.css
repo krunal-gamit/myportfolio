@@ -2,7 +2,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
 
 .projectPage {
-  background-color: black;
   color: white;
   height: 200vh;
 }
@@ -14,16 +13,19 @@
   font-family: Larsseit, sans-serif, Arial;
   position: absolute;
   z-index: 10;
+  background-color: transparent;
 }
 
 #pTitle {
   font-size: 4.5vw;
+  background-color: transparent;
 }
 .smallTitle {
   text-align: left;
   margin-left: 10.7vw;
   font-size: 1.7vw;
   font-family: poppins, sans-serif;
+  background-color: transparent;
 }
 
 .proImage {
