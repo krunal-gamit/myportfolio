@@ -133,10 +133,11 @@
 
 @media (max-width: 575px) {
   .name span {
-    margin-left: 18vw;
+    margin: 18vw;
     font-size: 3vw;
   }
   .tName span {
+    margin: 25vw 0 5vw 0;
     font-size: 12vw;
   }
 

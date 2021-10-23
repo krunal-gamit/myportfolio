@@ -89,7 +89,7 @@ li {
 
 @media (max-width: 575px) {
   .intro {
-    margin: 90vw 1vw 5vw 5vw;
+    margin: 125vw 1vw 5vw 5vw;
     width: auto;
   }
   .intro span {
@@ -100,7 +100,7 @@ li {
   .box {
     height: 90vw;
     width: 90vw;
-    margin-left: 3vw;
+    margin: 40vw 0 0 3vw;
   }
 
   .linkAbout span:after {
