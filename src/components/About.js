@@ -21,7 +21,7 @@ function About() {
             </span>
             
             <span id="resume">
-              <a href="https://drive.google.com/file/d/1c3c_m4si6Rp_wbyy8XjylV1TzMO_Dw58/view?usp=sharing">
+              <a target="_blank" href="https://drive.google.com/file/d/1c3c_m4si6Rp_wbyy8XjylV1TzMO_Dw58/view?usp=sharing">
               <button  className="button1">RESUME</button>
               </a>
               </span>
