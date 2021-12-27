@@ -1,5 +1,5 @@
-@import url("https://db.onlinewebfonts.com/c/1a0f9c82ae37cc35dc3c8e6c81ea95a4?family=Larsseit");
-@import url("http://db.onlinewebfonts.com/c/70c38766a71f8f7f0a477605da15fcd3?family=SF+Pro+Display");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap");
 
 .about {
   margin: 0;
@@ -9,19 +9,20 @@
 }
 
 .about #name {
-  font-family: Larsseit, Arial;
+  font-family: "Poppins", sans-serif;
   font-size: 5vw;
+  font-weight: 400;
 }
 
 .aboutName {
-  margin-left: 17vw;
+  margin: 2.5vw 0 0 17vw;
 }
 
 .aboutText {
-  margin: 1.4vw 1vw 0 50vw;
+  margin: 1.7vw 1vw 0 50vw;
   display: flex;
   flex-direction: column;
-  font-family: SF Pro Display, sans-serif, Arial;
+  font-family: "Inter", sans-serif;
 }
 
 .aboutText #abt-One {
@@ -29,13 +30,13 @@
 }
 
 .aboutText #abt-Two {
-  margin-top: 1vw;
+  margin-top: 1.5vw;
   font-size: 1.2vw;
 }
 
 .button1 {
   margin-top: 2vw;
-  font-family: Larsseit, Arial;
+  font-family: "Poppins", sans-serif;
   font-size: 1vw;
   background-color: black;
   color: white;
@@ -52,20 +53,20 @@
 }
 
 .toolsSec {
-  margin: 7vw 0 0 17vw;
+  margin: 5.7vw 0 0 17vw;
   display: flex;
   flex-direction: row;
 }
 
 .toolsSec #toolTitle {
-  font-family: Larsseit, Arial;
+  font-family: "Poppins", sans-serif;
   font-size: 3vw;
 }
 
 .toolsSec #tools {
-  margin: 5vw 0 0 16vw;
+  margin: 5vw 0 0 14vw;
   font-size: 1.2vw;
-  font-family: SF Pro Display, sans-serif, Arial;
+  font-family: "Inter", sans-serif;
 }
 
 .toolrow {
@@ -83,9 +84,9 @@
 }
 
 .toolsSec #tools2 {
-  margin: 5vw 0 0 10vw;
+  margin: 5vw 0 0 7vw;
   font-size: 1.2vw;
-  font-family: SF Pro Display, sans-serif, Arial;
+  font-family: "Inter", sans-serif;
 }
 
 .toolrow2 {
@@ -205,11 +206,12 @@
   }
 
   .toolsSec #tools2 {
-    margin: 5vw 0 0 0vw;
-    font-size: 3.5vw;
+    margin: 5vw 0 0 0;
+    font-size: 3.2vw;
   }
 
   .toolrow2 ul {
-    padding-right: 8vw;
+    width: 100%;
+    padding-right: 10vw;
   }
 }

@@ -9,12 +9,12 @@
   color: white;
   font-family: Oswald, Raleway;
   font-weight: bolder;
-  font-size: 4.5vw;
+  /*font-size: 4.5vw;*/
   display: inline-block;
 }
 
 .bannerTitle span {
-  padding-left: 2vw;
+  /*padding-left: 2vw;*/
 }
 
 .bannerTitle #t1,

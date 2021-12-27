@@ -14,13 +14,11 @@ function Contact() {
 );
   return (
     <div className="contact">
-      
       <div className="contactText">
           <span id="cText">
           <p>The internet is not waiting for a new website.<br/> Let's come up with a solution. <br/>Feel free to contact.</p>
           </span>
       </div>
-
       <ColoredLine color="white"/>
       <div class="marquee">
   <div class="track">
