@@ -2,6 +2,7 @@ import './Four3D.css'
 
 function Four3D(){
     return(
+        /*
         <div className="content3d">
             <div className="contain">
             
@@ -15,6 +16,8 @@ function Four3D(){
                 </span>
             </div>
         </div>
+        */
+       <div></div>
     );
 }
 

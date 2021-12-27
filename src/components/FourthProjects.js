@@ -28,8 +28,8 @@ function FourthProjects(props){
     
             <div className='gig'><img src='/img/Image_12.png'/></div>
                 <div className='gigname'>
-                    <div id='fn'>Personal Portfolio</div>
-                    <div id='ln'>UX/ UI</div>
+                    <div id='fn'>Stock Market Prediction</div>
+                    <div id='ln'>ML Model</div>
                 </div>
                 </Link>
             </span>
@@ -42,8 +42,8 @@ function FourthProjects(props){
     
                 <div className='gig'><img src='/img/Image_13.png'/><img src='/img/Image_14.png'/></div>
                 <div className='gigname'>
-                    <div id='fn'>Responsive Design</div>
-                    <div id='ln'>UX/ UI</div>
+                    <div id='fn'>Hospital Management</div>
+                    <div id='ln'>CLI</div>
                 </div>
                 </Link>
                 </span>
@@ -56,8 +56,8 @@ function FourthProjects(props){
     
                 <div className='gig'><img src='/img/Image_15.png'/></div>
                 <div className='gigname'>
-                    <div id='fn'>Youtube Video Downloader</div>
-                    <div id='ln'>Python App</div>
+                    <div id='fn'>Responsive Design</div>
+                    <div id='ln'>UX/UI</div>
                 </div>
                 </Link>    
                 </span>
