@@ -38,7 +38,7 @@
 .tName #onHover:hover {
   color: black;
   transition: 0.2s ease-out;
-  -webkit-text-stroke: 4px #5cff5c;
+  -webkit-text-stroke: 3.5px #5cff5c;
 }
 
 .shapes {
@@ -118,7 +118,11 @@
   .tName span {
     font-size: 10vw;
   }
-
+  .tName #onHover:hover {
+    color: black;
+    transition: 0.2s ease-out;
+    -webkit-text-stroke: 0.5px #5cff5c;
+  }
   #five {
     margin-left: 35vw;
     margin-top: -7vw;
@@ -143,8 +147,14 @@
     font-size: 3vw;
   }
   .tName span {
-    margin: 25vw 0 5vw 0;
+    margin: 20vw 0 5vw 0;
     font-size: 12vw;
+  }
+
+  .tName #onHover:hover {
+    color: black;
+    transition: 0.2s ease-out;
+    -webkit-text-stroke: 1.5px #5cff5c;
   }
 
   #three {

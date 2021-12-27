@@ -11,7 +11,7 @@ function EighthFooter(){
             <div className='col1'>
             <IconContext.Provider value={{size: "1.5vw", color:"white"}} >
                <span id='colName'>Stop By.</span>
-               <span id='colDetail'>🌈 Learning</span>
+               <span id='colDetail'>💖 Learning</span>
                <span id='socialIcon'>
                    <li><a target="_blank" href="https://www.instagram.com/krunalgamit_"><FaInstagram className="secSocial" /></a></li>
                    <li><a target="_blank" href="https://twitter.com/krunalgamit_"><FaTwitter className="secSocial" /></a></li>
