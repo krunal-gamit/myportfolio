@@ -4,8 +4,6 @@ import {SiGmail} from "react-icons/si";
 import { IconContext } from 'react-icons/lib';
 import { motion } from 'framer-motion';
 
-
-
 const staggerContainer= {
     initial: {},
     animate:{
@@ -157,9 +155,9 @@ function FirstPage(){
             <motion.div
             variants={staggerContainer}
             initial="initial" animate="animate"
-
             className="fpage"
             >
+            
             <div className='name'>
                 <span>Krunal Gamit</span>
             </div>
@@ -168,7 +166,7 @@ function FirstPage(){
             variants={fadeUpVariants}
             className='tName'
             >
-            <span>&lt;designer/&gt;<br></br> .developer</span>
+            <span><k id="onHover">&lt;designer/&gt;</k><br></br><k id="onHover"> .developer</k></span>
             </motion.div>
             </motion.div>
             
