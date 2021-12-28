@@ -15,6 +15,7 @@ function SecondPage(props){
                 
                     <span>About &nbsp; <a id="aboutArr"> &#8594;</a></span>
                     </Link>
+                
                 </li>
                 </div>
             </div>
