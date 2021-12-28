@@ -1,6 +1,5 @@
-@import url("https://db.onlinewebfonts.com/c/1a0f9c82ae37cc35dc3c8e6c81ea95a4?family=Larsseit");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
-@import url("http://db.onlinewebfonts.com/c/70c38766a71f8f7f0a477605da15fcd3?family=SF+Pro+Display");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap");
 
 .playground {
   margin: 0;
@@ -10,7 +9,7 @@
 }
 
 .playTitle #pTitle {
-  font-family: Larsseit, Arial;
+  font-family: "Poppins", sans-serif;
   font-size: 5vw;
 }
 
@@ -19,20 +18,21 @@
 }
 
 .playText {
-  margin: 1.4vw 0 7vw 40vw;
+  margin: 2vw 0 7vw 0vw;
   display: flex;
   flex-direction: column;
-  font-family: SF Pro Display, sans-serif, Arial;
+  font-family: "Inter", sans-serif;
   font-size: 1.5vw;
   text-align: center;
 }
 
 .playList span {
   font-size: 3vw;
-  font-family: Poppins, sans-serif, Arial;
+  font-weight: 200;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
 }
 
 .playList span ul li {
-  margin-left: 20vw;
   padding: 2vw 0 2vw 0;
 }

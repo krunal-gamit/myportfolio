@@ -42,6 +42,19 @@ complaints, and management of companys' resources. </span>
 
       <ColoredLine color="white"/>
 
+      <div className="role">
+        <span id="roleName">Role</span>
+          <span id="roleDesc">Airline Management System which provides a platform to manage ticket booking, 
+track flight status, manage customer and Employee accounts.  Take feedback and record 
+complaints, and management of companys' resources. </span>
+        </div>
+
+        <div className="research">
+        <span id="resName">Research & Planning</span>
+          <span id="resDesc">Airline Management System which provides a platform to manage ticket booking, 
+track flight status, manage customer and Employee accounts.  Take feedback and record 
+complaints, and management of companys' resources. </span>
+        </div>
 
       </div>
     </div>

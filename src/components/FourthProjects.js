@@ -28,7 +28,7 @@ function FourthProjects(props){
     
             <div className='gig'><img src='/img/Image_12.png'/></div>
                 <div className='gigname'>
-                    <div id='fn'>Stock Market Prediction</div>
+                    <div id='fn'>Stock Price Prediction</div>
                     <div id='ln'>ML Model</div>
                 </div>
                 </Link>
