@@ -1,12 +1,18 @@
-@import url("http://db.onlinewebfonts.com/c/70c38766a71f8f7f0a477605da15fcd3?family=SF+Pro+Display");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Kaisei+Decol&display=swap");
 
 .mainPage {
-  background-color: black;
-  font-family: SF Pro Display, Raleway, Kaisei Decol;
+  font-family: "Inter", Raleway, Kaisei Decol;
+  font-weight: 300;
   color: white;
   height: auto;
+}
+
+.imgb2 {
+  width: 100%;
+  margin-top: -33vw;
+  z-index: 1;
 }
 
 .intro {
@@ -19,7 +25,9 @@
 }
 
 .intro span {
-  font-size: 1.5vw;
+  font-size: 1.2vw;
+  z-index: 999;
+  background-color: transparent;
 }
 
 .linkAbout span {
@@ -108,4 +116,3 @@ li {
     height: 1.5px;
   }
 }
-

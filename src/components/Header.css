@@ -24,7 +24,9 @@
   font-size: 5vw;
   font-weight: bolder;
 }
-
+.hamburger {
+  display: none;
+}
 @media (max-width: 1000px) {
   .logo #logoo {
     margin-left: 5vw;
@@ -52,16 +54,64 @@
 }
 
 @media (max-width: 575px) {
-  .rightHeader li {
-    padding: 0;
-  }
-
   .logo #logoo {
     margin-left: 2vw;
     width: 30vw;
     height: 15vw;
     overflow: hidden;
     font-size: 10vw;
+  }
+
+  .hamburger {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 4vw;
+    cursor: pointer;
+    z-index: 10000;
+    margin-right: 5vw;
+  }
+
+  .nav-list {
+    opacity: 1;
+    z-index: 9999;
+    position: fixed;
+    right: -100%;
+    top: 0;
+    flex-direction: column;
+    background-color: rgba(228,4,66,0.999);
+    width: 100%;
+    height: 100%;
+    transition: all 0.7s ease-in-out;
+
+  }
+
+  .rightHeader{
+    
+  }
+
+  .rightHeader ul {
+   display: block;
+   margin-top: 15vw;
+
+  }
+
+  .rightHeader li {
+    background-color: rgba(228,4,66,0.999);
+  }
+
+  .nav-list.active {
+    right: -55%;
+  }
+
+  .rightHeader ul li a {
+    align-items: left;
+    
+  }
+
+  .text-light {
+    font-size: 4vw;
   }
 }
 
