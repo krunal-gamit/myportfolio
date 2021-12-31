@@ -3,8 +3,10 @@ import { Link, withRouter } from "react-router-dom";
 
 function SecondPage(props){
     return(
-        <div className='mainPage'>
+        
+        <div className='mainPage' >
             <div className='box'></div>
+            
             <div className='intro'>
                 <span><br></br><br></br>I have a passion for developing better solutions and user experience that are impactful.</span>
                 <div className='linkAbout'>
@@ -19,6 +21,7 @@ function SecondPage(props){
                 </li>
                 </div>
             </div>
+            
         </div>
     );
 }

@@ -1,5 +1,6 @@
-import React from 'react';
+import React, {useState} from 'react';
 import { Link, withRouter } from "react-router-dom";
+import {FaTimes, FaBars} from 'react-icons/fa';
 
 import "./Header.css"
 import "./FirstPage.css"
@@ -38,6 +39,23 @@ const  fadeInVariants = {
 
 
 function Header(props) {
+
+  const [click, setClick] = useState(false);
+
+  const clickHandler = () => {
+    setClick(!click);
+  };
+
+  const [newclick, setnewClick] = useState(false);
+
+  const newclickHandler = () => {
+    setnewClick(!newclick);
+  };
+
+  
+
+
+
     return(
         <nav class="">
         <motion.div 
@@ -48,30 +66,28 @@ function Header(props) {
             <motion.div variants={fadeInVariants} className="logo">
                 <span id="logoo">kIg</span>
             </motion.div>
-            <div className="menu-btn">
-                <div className="menu-btn__burger"></div>
-            </div>
+          
             <div
             className="rightHeader">
-                <ul>
-                    <motion.div variants={fadeInVariants}><li  class={`nav-item  ${
+                <ul className={click ? "nav-list active" : "nav-list" && newclick ? "nav-list": " nav-list"} >
+                    <motion.div variants={fadeInVariants}><li onClick={newclickHandler} class={`nav-item  ${
                   props.location.pathname === "/" ? "active" : ""
                 }`}><Link class="nav-link" class="text-light" to="/">HOME 
                 <span class="sr-only">(current)</span>
                 </Link>
                 </li></motion.div>
 
-                <motion.div variants={fadeInVariants}><li class={`nav-item  ${
+                <motion.div variants={fadeInVariants}><li onClick={newclickHandler} class={`nav-item  ${
                   props.location.pathname === "/playground" ? "active" : ""
                 }`}><Link class="nav-link"  class="text-light" to="/playground">PLAYGROUND
                 </Link>
                 </li></motion.div>
-                <motion.div variants={fadeInVariants}><li class={`nav-item  ${
+                <motion.div variants={fadeInVariants}><li onClick={newclickHandler} class={`nav-item  ${
                   props.location.pathname === "/about" ? "active" : ""
                 }`}><Link class="nav-link"  class="text-light" to="/about">ABOUT
                 </Link>
                 </li></motion.div >
-                <motion.div variants={fadeInVariants}><li class={`nav-item  ${
+                <motion.div variants={fadeInVariants}><li onClick={newclickHandler} class={`nav-item  ${
                   props.location.pathname === "/contact" ? "active" : ""
                 }`}><Link class="nav-link"  class="text-light" to="/contact">CONTACT
                 </Link>
@@ -79,6 +95,7 @@ function Header(props) {
 
                 </ul>
             </div>
+            <div onClick={clickHandler} className='hamburger'>{click ? <FaTimes/>:  <FaBars/> }  </div>
         </motion.div>
         </nav>
     );
