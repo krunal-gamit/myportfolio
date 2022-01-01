@@ -71,6 +71,8 @@
     cursor: pointer;
     z-index: 10000;
     margin-right: 5vw;
+    position: fixed;
+    margin-left: 90vw;
   }
 
   .nav-list {

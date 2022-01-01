@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import { Link, withRouter } from "react-router-dom";
 import {FaTimes, FaBars} from 'react-icons/fa';
+import { IconContext } from 'react-icons/lib';
 
 import "./Header.css"
 import "./FirstPage.css"
@@ -95,7 +96,9 @@ function Header(props) {
 
                 </ul>
             </div>
+            <IconContext.Provider value={{ color:"white", background:"transparent"}} >
             <div onClick={clickHandler} className='hamburger'>{click ? <FaTimes/>:  <FaBars/> }  </div>
+            </IconContext.Provider>
         </motion.div>
         </nav>
     );
