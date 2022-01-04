@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Kaisei+Decol&display=swap");
-@import url("http://db.onlinewebfonts.com/c/70c38766a71f8f7f0a477605da15fcd3?family=SF+Pro+Display");
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap");
 .bar {
   height: 36vw;
@@ -27,7 +26,6 @@
 
 .minBar .barText {
   font-size: 2.5vw;
-  font-family: SF Pro Display, Raleway;
   font-weight: 400;
   text-align: center;
   margin-top: 3vw;

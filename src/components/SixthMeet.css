@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Kaisei+Decol&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap");
 
 .meet {
@@ -16,13 +17,13 @@
 #textOne {
   font-size: 10vw;
   font-weight: 100;
-  font-family: Raleway;
+  font-family: 'Raleway', sans-serif;
   padding: 0vw 7vw 0vw 17vw;
 }
 
 #textTwo {
   font-size: 10vw;
-  font-weight: 200;
+  font-weight: 400;
   font-family: Kaisei Decol, serif;
   padding: 0 7vw 0 0;
 }
@@ -30,7 +31,7 @@
 #textThree {
   font-size: 10vw;
   font-weight: 100;
-  font-family: "Inter";
+  font-family: 'Raleway', sans-serif;
 }
 
 .bottomText {

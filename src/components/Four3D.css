@@ -93,28 +93,31 @@
 }
 
 .btn--primary {
+  font-family: "poppins", sans-serif;
+  border-style: none;
   height: 2.5vw;
-  width: 10vw;
-  border-radius: 10px;
+  width: 14vw;
+  border-radius: 5px;
+  cursor: pointer;
   background: linear-gradient(104deg, #fc307b 0%, #a22dc9 100%);
+  overflow: hidden;
 }
 
 .btn--primary:hover {
-  transition: 1s opacity ease-in-out;
+  transition: opacity 0.5s ease;
   color: white;
   background: #a22dc9;
 }
 
-.btn--accent{
+.btn--accent {
   position: absolute;
   height: 12vw;
   width: 12vw;
   margin-top: 3vw;
-  margin-left: -1vw;
   align-content: center;
 }
 
-.large-gap{
+.large-gap {
   display: flex;
   flex-direction: column;
 }
@@ -129,30 +132,34 @@
 }
 
 .flex {
-  margin: 0 0 10vw 12vw;
+  margin: 0 0 10vw 0vw;
 }
+
+.contain .flex {
+  width: 100%;
+  align-items: center;
+}
+
 @media (max-width: 1000px) {
-  .btn--accent img{
+  .btn--accent img {
     display: none;
   }
 
   .uppercase {
     font-size: 4vw;
   }
-  
-.grid p{
+
+  .grid p {
     font-size: 1.5vw;
   }
-  
+
   .btn--primary {
     font-size: 1.2vw;
-    height: 2.5vw;
+    height: 2.8vw;
     width: 13vw;
     position: absolute;
     margin-left: -2.1vw;
-
   }
-
 }
 
 @media (max-width: 575px) {
@@ -176,23 +183,22 @@
   }
 
   .flex {
-    margin: 0 0 10vw 32vw;
+    margin: 0 0 10vw 0vw;
   }
 
   .uppercase {
     font-size: 7vw;
   }
-  
-.grid p{
+
+  .grid p {
     font-size: 3vw;
   }
-  
+
   .btn--primary {
     font-size: 2.2vw;
     height: 5.5vw;
     width: 23vw;
     position: absolute;
     margin-left: 0vw;
-
   }
 }

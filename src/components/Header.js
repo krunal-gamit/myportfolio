@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import { Link, withRouter } from "react-router-dom";
-import {FaTimes, FaBars} from 'react-icons/fa';
+import {HiMenu, HiX} from 'react-icons/hi';
 import { IconContext } from 'react-icons/lib';
 
 import "./Header.css"
@@ -96,8 +96,8 @@ function Header(props) {
 
                 </ul>
             </div>
-            <IconContext.Provider value={{ color:"white", background:"transparent"}} >
-            <div onClick={clickHandler} className='hamburger'>{click ? <FaTimes/>:  <FaBars/> }  </div>
+            <IconContext.Provider value={{ color:"white"}} >
+            <div onClick={clickHandler} className='hamburger'>{click ? <HiX/>:  <HiMenu/> }  </div>
             </IconContext.Provider>
         </motion.div>
         </nav>

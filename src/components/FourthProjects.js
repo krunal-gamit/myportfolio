@@ -26,7 +26,7 @@ function FourthProjects(props){
                   props.location.pathname === "/personal-portfolio1" ? "active" : ""
                 }`}><Link class="nav-link"  class="text-light" to="/personal-portfolio1">
     
-            <div className='gig'><img src='/img/Image_12.png'/></div>
+            <div className='gig'><img alt="image" src='/img/Image_1.png'/></div>
                 <div className='gigname'>
                     <div id='fn'>Stock Price Prediction</div>
                     <div id='ln'>ML Model</div>
@@ -40,7 +40,7 @@ function FourthProjects(props){
                   props.location.pathname === "/responsive-design" ? "active" : ""
                 }`}><Link class="nav-link"  class="text-light" to="/responsive-design">
     
-                <div className='gig'><img src='/img/Image_13.png'/><img src='/img/Image_14.png'/></div>
+                <div className='gig'><img alt="image" src='/img/Image_1.png'/><img alt="image" src='/img/Image_1.png'/></div>
                 <div className='gigname'>
                     <div id='fn'>Hospital Management</div>
                     <div id='ln'>CLI</div>
@@ -54,7 +54,7 @@ function FourthProjects(props){
                   props.location.pathname === "/yt-downloader" ? "active" : ""
                 }`}><Link class="nav-link"  class="text-light" to="/yt-downloader">
     
-                <div className='gig'><img src='/img/Image_15.png'/></div>
+                <div className='gig'><img alt="image" src='/img/Image_1.png'/></div>
                 <div className='gigname'>
                     <div id='fn'>Responsive Design</div>
                     <div id='ln'>UX/UI</div>
