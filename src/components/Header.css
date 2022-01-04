@@ -2,7 +2,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap");
 
 .header {
-  background-color: black;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -27,15 +26,6 @@
 .hamburger {
   display: none;
 }
-@media (max-width: 1000px) {
-  .logo #logoo {
-    margin-left: 5vw;
-    width: 10vw;
-    height: 10vw;
-    font-size: 7vw;
-    overflow: hidden;
-  }
-}
 
 .rightHeader {
   display: flex;
@@ -53,7 +43,19 @@
   padding: 1vw 2vw 0vw 2vw;
 }
 
+@media (max-width: 1000px) {
+  .logo #logoo {
+    margin-left: 5vw;
+    width: 10vw;
+    height: 10vw;
+    font-size: 7vw;
+    overflow: hidden;
+  }
+}
+
 @media (max-width: 575px) {
+  
+
   .logo #logoo {
     margin-left: 2vw;
     width: 30vw;
@@ -82,24 +84,19 @@
     right: -100%;
     top: 0;
     flex-direction: column;
-    background-color: rgba(228,4,66,0.999);
     width: 100%;
     height: 100%;
     transition: all 0.7s ease-in-out;
-
   }
 
-  .rightHeader{
-    
+
+  .rightHeader li{
+background-color: rgba(228,4,66,0.999);
   }
 
   .rightHeader ul {
-   display: block;
-   margin-top: 15vw;
-
-  }
-
-  .rightHeader li {
+    display: block;
+    margin-top: 15vw;
     background-color: rgba(228,4,66,0.999);
   }
 
@@ -109,7 +106,6 @@
 
   .rightHeader ul li a {
     align-items: left;
-    
   }
 
   .text-light {
