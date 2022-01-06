@@ -53,8 +53,6 @@ function Header(props) {
     setnewClick(!newclick);
   };
 
-  
-
 
 
     return(
