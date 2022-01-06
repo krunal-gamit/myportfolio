@@ -3,7 +3,8 @@
 
 .projectPage {
   color: white;
-  height: 200vh;
+  height: 190vw;
+  overflow: hidden;
 }
 
 .proTitle {
@@ -30,12 +31,20 @@
 
 .proImage {
   height: 32vw;
-  width: 40vw;
+  width: 38vw;
   position: absolute;
   overflow: hidden;
   background-color: red;
   margin: 2vw 0 0 44.5vw;
   z-index: 1;
+}
+
+.proImg {
+  position: absolute;
+  height: 33vw;
+  width: 35vw;
+  margin: 0vw 0 0 46.5vw;
+  z-index: 5;
 }
 
 .proDesc {
@@ -67,19 +76,187 @@
   font-family: "Inter", sans-serif;
 }
 
-.role, .research {
+.role,
+.research {
   display: flex;
   flex-direction: column;
   margin-top: 5vw;
 }
 
-.role #roleName, #resName {
+.role #roleName,
+#resName {
   font-family: "Poppins", sans-serif;
   font-size: 1.4vw;
   margin-left: 5vw;
 }
 
-.role #roleDesc, #resDesc {
+.txt {
   font-size: 1.3vw;
   margin: -2vw 0 0 25vw;
+}
+
+.className,
+.homeName {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.4vw;
+  margin-left: 5vw;
+}
+
+.cimage {
+  height: 40vw;
+  width: 40vw;
+  margin: 2vw 0 0 9.5vw;
+}
+
+.himage {
+  height: 30vw;
+  width: 40vw;
+  margin: 2vw 0 0 7vw;
+}
+
+.sumDesc {
+  font-size: 1.3vw;
+  position: relative;
+  margin: 10vw 0 3vw 5vw;
+  width: 90vw;
+  font-family: "Poppins", sans-serif;
+}
+
+@media (max-width: 1000px) {
+  .role #roleName,
+  #resName {
+    font-size: 1.7vw;
+  }
+
+  .role #roleDesc,
+  #resDesc {
+    font-size: 1.5vw;
+  }
+  .className,
+  .homeName {
+    font-size: 1.7vw;
+    margin-left: 3vw;
+  }
+
+  .cimage {
+    height: 40vw;
+    width: 50vw;
+    margin: 2vw 0 0 9.5vw;
+  }
+
+  .himage {
+    height: 35vw;
+    width: 45vw;
+    margin: 2vw 0 0 6vw;
+  }
+
+  .sumDesc {
+    font-size: 1.5vw;
+  }
+}
+
+@media (max-width: 575px) {
+  .projectPage {
+    height: 470vw;
+  }
+
+  .proTitle {
+    width: 70vw;
+    margin: 5vw 0 0 7.5vw;
+  }
+
+  #pTitle {
+    font-size: 5.9vw;
+  }
+  .smallTitle {
+    font-size: 1.9vw;
+  }
+
+  .proImage {
+    height: 80vw;
+    width: 80vw;
+    margin: 30vw 0 0 8.5vw;
+  }
+
+  .proImg {
+    height: 80vw;
+    width: 78vw;
+    margin: 28vw 0 0 8vw;
+  }
+
+  .proDesc {
+    margin: 117vw 0 3vw 5vw;
+  }
+
+  .proDesc span {
+    font-size: 3.2vw;
+  }
+
+  .proDate {
+    margin: 5vw 0 3vw 5vw;
+    font-size: 3.2vw;
+  }
+
+  .role,
+  .research {
+    margin-top: 5vw;
+  }
+
+  .role span,
+  .research span {
+    margin-top: 10vw;
+  }
+
+  .role #roleName,
+  #resName {
+    font-size: 3.2vw;
+    margin: 0vw;
+  }
+
+  .role {
+    margin-left: 5vw;
+  }
+  .research {
+    margin-left: 5vw;
+  }
+
+  .role #roleDesc,
+  .research #resDesc {
+    font-size: 2.7vw;
+    width: 85vw;
+    margin: 2vw 0 0 0vw;
+  }
+
+  .txt {
+    font-size: 1.3vw;
+    margin: 0vw 0 3vw 0vw;
+  }
+
+  .className,
+  .homeName {
+    font-size: 3.2vw;
+    margin-top: 5vw;
+  }
+
+  #className,
+  #homeName {
+    margin: 7vw 0 0 3vw;
+  }
+
+  .cimage {
+    height: 80vw;
+    width: 80vw;
+    margin: 5vw 0 0 5vw;
+  }
+
+  .himage {
+    height: 80vw;
+    width: 80vw;
+    margin: 5vw 0 0 5vw;
+  }
+
+  .sumDesc {
+    font-size: 3.3vw;
+    margin: 5vw 0 3vw 5vw;
+  }
 }
