@@ -70,7 +70,7 @@ complaints, and management of companys' resources. </span>
         <div className="className">
         <span id="className">Class Diagram</span>
           <span id="classDesc">
-          <img className='cimage' src='/img/cImage.jpg'></img>
+          <img className='cimage' src='/img/cimage.jpg'></img>
           </span>
         </div>
 
