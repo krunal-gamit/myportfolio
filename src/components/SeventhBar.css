@@ -3,12 +3,14 @@
 .bar {
   height: 36vw;
   background-color: rgb(0, 0, 0);
+  overflow: hidden;
 }
 
 .minBar {
   height: 10vw;
   background-color: white;
   margin: 12vw 7vw 0 7vw;
+  
 }
 
 .minBar div {

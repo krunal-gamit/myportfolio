@@ -1,13 +1,15 @@
 import './SecondPage.css'
 import { Link, withRouter } from "react-router-dom";
 
+
+
 function SecondPage(props){
     return(
         
         <div className='mainPage' >
-            <div className='box'></div>
+            <div data-Aos="fade-up" className='box'></div>
             
-            <div className='intro'>
+            <div data-Aos="fade-right" className='intro'>
                 <span><br></br><br></br>I have a passion for developing better solutions and user experience that are impactful.</span>
                 <div className='linkAbout'>
                     

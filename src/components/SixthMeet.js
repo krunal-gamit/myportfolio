@@ -4,7 +4,7 @@ import { Link, withRouter } from "react-router-dom";
 function SixthMeet(props){
     return(
         <div className='meet'>
-            <div className='meetText'>
+            <div data-Aos="fade-up" className='meetText'>
                 <span id='textOne'>Lets</span>
                 <span id='textTwo'>&#8594;</span>
                 <span id='textThree'>Work</span>

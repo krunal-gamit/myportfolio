@@ -7,7 +7,7 @@ function Four3D(){
            <section>
                <div className='perspective containerr'>
                <div className=' grid grid--columns'>
-                   <div>
+                   <div data-Aos="fade-right" className='hid'>
             <h2 className='fs-700 uppercase text-compressed'>INSTAGRAM FEED</h2>
             <p>The feed will smoothly transition into the next.<br/>Images vertically and horizontally look connected.<br/> Inspired by Casey McPerry (@caseymcperry). </p>
             <div className='contain'>
