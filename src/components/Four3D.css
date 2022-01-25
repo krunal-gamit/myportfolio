@@ -15,6 +15,10 @@
   overflow: hidden;
 }
 
+.hid {
+  overflow: hidden;
+}
+
 .uppercase {
   text-transform: uppercase;
 }
@@ -43,7 +47,7 @@
   padding: 6.5rem 0;
   max-width: 100rem;
   margin: 0 auto;
-  overflow: hidden;
+  overflow-x: hidden;
   display: flex;
   flex-direction: row;
 }
@@ -51,6 +55,7 @@
 .flex {
   display: flex;
   gap: var(--gap, 0.5rem);
+  overflow: hidden;
 }
 
 .grid {
@@ -175,6 +180,7 @@
     position: relative;
     height: 30rem;
     width: 30rem;
+    overflow: hidden;
   }
 
   .grid a img {

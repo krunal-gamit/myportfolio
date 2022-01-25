@@ -10,9 +10,8 @@ function FourthProjects(props){
             <span class={`nav-item  ${
                   props.location.pathname === "/airline-booking" ? "active" : ""
                 }`}><Link class="nav-link"  class="text-light" to="/airline-booking">
-    
-                <div className='gig'><img src='/img/Image_11.png'/></div>
-                <div className='gigname'>
+                <div data-Aos="fade-up" className='gig'><img src='/img/Image_11.png'/></div>
+                <div data-Aos="fade-up" className='gigname'>
                     <div id='fn'>Airline Booking</div>
                     <div id='ln'>Full Stack</div>
                 </div>
@@ -21,13 +20,13 @@ function FourthProjects(props){
             </div>
 
             
-            <div className='two'>
+            <div  className='two'>
             <span class={`nav-item  ${
                   props.location.pathname === "/personal-portfolio1" ? "active" : ""
                 }`}><Link class="nav-link"  class="text-light" to="/personal-portfolio1">
     
-            <div className='gig'><img alt="image" src='/img/Image_1.png'/></div>
-                <div className='gigname'>
+            <div data-Aos="fade-up" className='gig'><img alt="image" src='/img/Image_1.png'/></div>
+                <div data-Aos="fade-up" className='gigname'>
                     <div id='fn'>Stock Price Prediction</div>
                     <div id='ln'>ML Model</div>
                 </div>
@@ -35,13 +34,13 @@ function FourthProjects(props){
             </span>
             </div>
 
-            <div className='three'>
+            <div  className='three'>
             <span class={`nav-item  ${
                   props.location.pathname === "/responsive-design" ? "active" : ""
                 }`}><Link class="nav-link"  class="text-light" to="/responsive-design">
     
-                <div className='gig'><img alt="image" src='/img/Image_1.png'/><img alt="image" src='/img/Image_1.png'/></div>
-                <div className='gigname'>
+                <div data-Aos="fade-up"  className='gig'><img alt="image" src='/img/Image_1.png'/><img alt="image" src='/img/Image_1.png'/></div>
+                <div data-Aos="fade-up" className='gigname'>
                     <div id='fn'>Hospital Management</div>
                     <div id='ln'>CLI</div>
                 </div>
@@ -49,13 +48,13 @@ function FourthProjects(props){
                 </span>
             </div>
 
-            <div className='four'>
+            <div  className='four'>
             <span class={`nav-item  ${
                   props.location.pathname === "/yt-downloader" ? "active" : ""
                 }`}><Link class="nav-link"  class="text-light" to="/yt-downloader">
     
-                <div className='gig'><img alt="image" src='/img/Image_1.png'/></div>
-                <div className='gigname'>
+                <div data-Aos="fade-up" className='gig'><img alt="image" src='/img/Image_1.png'/></div>
+                <div data-Aos="fade-up" className='gigname'>
                     <div id='fn'>Responsive Design</div>
                     <div id='ln'>UX/UI</div>
                 </div>
