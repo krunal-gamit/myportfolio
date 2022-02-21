@@ -10,10 +10,10 @@ function FourthProjects(props){
             <span class={`nav-item  ${
                   props.location.pathname === "/airline-booking" ? "active" : ""
                 }`}><Link class="nav-link"  class="text-light" to="/airline-booking">
-                <div data-Aos="fade-up" className='gig'><img src='/img/Image_11.png'/></div>
+                <div data-Aos="fade-up" className='gig'><img img alt="image" src='/img/Image_1.png'/></div>
                 <div data-Aos="fade-up" className='gigname'>
-                    <div id='fn'>Airline Booking</div>
-                    <div id='ln'>Full Stack</div>
+                    <div id='fn'>Order Management System</div>
+                    <div id='ln'>eVegetable Site</div>
                 </div>
                 </Link>
             </span>
@@ -25,10 +25,10 @@ function FourthProjects(props){
                   props.location.pathname === "/personal-portfolio1" ? "active" : ""
                 }`}><Link class="nav-link"  class="text-light" to="/personal-portfolio1">
     
-            <div data-Aos="fade-up" className='gig'><img alt="image" src='/img/Image_1.png'/></div>
+            <div data-Aos="fade-up" className='gig'><img alt="image" src='/img/Image_11.png'/></div>
                 <div data-Aos="fade-up" className='gigname'>
-                    <div id='fn'>Stock Price Prediction</div>
-                    <div id='ln'>ML Model</div>
+                    <div id='fn'>Airline Booking</div>
+                    <div id='ln'>Full Stack</div>
                 </div>
                 </Link>
             </span>
@@ -55,8 +55,8 @@ function FourthProjects(props){
     
                 <div data-Aos="fade-up" className='gig'><img alt="image" src='/img/Image_1.png'/></div>
                 <div data-Aos="fade-up" className='gigname'>
-                    <div id='fn'>Responsive Design</div>
-                    <div id='ln'>UX/UI</div>
+                    <div id='fn'>Stock Price Prediction</div>
+                    <div id='ln'>ML Model</div>
                 </div>
                 </Link>    
                 </span>

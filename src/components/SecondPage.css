@@ -65,8 +65,12 @@
   position: absolute;
   height: 30vw;
   width: 30vw;
-  background-color: yellow;
+  background-color: transparent;
   margin: 0vw 0 2vw 60vw;
+}
+
+.box img {
+  height: 100%;
 }
 
 li {

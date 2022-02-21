@@ -7,7 +7,7 @@ function SecondPage(props){
     return(
         
         <div className='mainPage' >
-            <div data-Aos="fade-up" className='box'></div>
+            <div data-Aos="fade-up" className='box'><img src="/img/Img1.png" ></img></div>
             
             <div data-Aos="fade-right" className='intro'>
                 <span><br></br><br></br>I have a passion for developing better solutions and user experience that are impactful.</span>
