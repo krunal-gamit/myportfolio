@@ -37,7 +37,7 @@
 
 .projects .two {
   height: 30vw;
-  width: 25vw;
+  width: 30vw;
   background-image: linear-gradient(rgba(255, 249, 91), rgba(255, 147, 15));
   margin-top: -25vw;
   margin-left: 55vw;
@@ -70,7 +70,7 @@
 
 .projects .two .gig {
   height: 27vw;
-  width: 22vw;
+  width: 27vw;
   position: absolute;
   display: block;
   margin-left: 1.5vw;
