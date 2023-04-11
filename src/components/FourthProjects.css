@@ -9,6 +9,14 @@
   overflow: hidden;
 }
 
+a{
+  color: white;
+}
+
+a:hover{
+  color: rgb(255, 27, 107);
+}
+
 .gigname {
   position: absolute;
   font-size: 1.2vw;

@@ -9,8 +9,8 @@ function FourthProjects(props){
             <div className='one'>
             <span class={`nav-item  ${
                   props.location.pathname === "/airline-booking" ? "active" : ""
-                }`}><Link class="nav-link"  class="text-light" to="/airline-booking">
-                <div data-Aos="fade-up" className='gig'><img img alt="image" src='/img/Image_1.png'/></div>
+                }`}><Link class="nav-link" to="/airline-booking">
+                <div data-Aos="fade-up" className='gig'><img img alt="image" src='/img/Image_14.png'/></div>
                 <div data-Aos="fade-up" className='gigname'>
                     <div id='fn'>Order Management System</div>
                     <div id='ln'>eVegetable Site</div>
@@ -22,8 +22,8 @@ function FourthProjects(props){
             
             <div  className='two'>
             <span class={`nav-item  ${
-                  props.location.pathname === "/personal-portfolio1" ? "active" : ""
-                }`}><Link class="nav-link"  class="text-light" to="/personal-portfolio1">
+                  props.location.pathname === "/airline-booking" ? "active" : ""
+                }`}><Link class="nav-link"  to="/airline-booking">
     
             <div data-Aos="fade-up" className='gig'><img alt="image" src='/img/Image_11.png'/></div>
                 <div data-Aos="fade-up" className='gigname'>
@@ -37,7 +37,7 @@ function FourthProjects(props){
             <div  className='three'>
             <span class={`nav-item  ${
                   props.location.pathname === "/responsive-design" ? "active" : ""
-                }`}><Link class="nav-link"  class="text-light" to="/responsive-design">
+                }`}><Link class="nav-link" to="/responsive-design">
     
                 <div data-Aos="fade-up"  className='gig'><img alt="image" src='/img/Image_1.png'/><img alt="image" src='/img/Image_1.png'/></div>
                 <div data-Aos="fade-up" className='gigname'>
@@ -51,7 +51,7 @@ function FourthProjects(props){
             <div  className='four'>
             <span class={`nav-item  ${
                   props.location.pathname === "/yt-downloader" ? "active" : ""
-                }`}><Link class="nav-link"  class="text-light" to="/yt-downloader">
+                }`}><Link class="nav-link" to="/yt-downloader">
     
                 <div data-Aos="fade-up" className='gig'><img alt="image" src='/img/Image_1.png'/></div>
                 <div data-Aos="fade-up" className='gigname'>
