@@ -7,7 +7,7 @@ function SecondPage(props){
     return(
         
         <div className='mainPage' >
-            <div data-Aos="fade-up" className='box'><img src="/img/Img1.png" ></img></div>
+            <div data-Aos="fade-up" className='box'><img src="/img/testimg.gif" alt="image" ></img> </div>
             
             <div data-Aos="fade-right" className='intro'>
                 <span><br></br><br></br>I have a passion for developing better solutions and user experience that are impactful.</span>
@@ -15,7 +15,7 @@ function SecondPage(props){
                     
                 <li class={`nav-item  ${
                   props.location.pathname === "/about" ? "active" : ""
-                }`}><Link class="nav-link"  class="text-dark" to="/about">
+                }`}><Link class="nav-link"  className="text-dark" to="/about">
                 
                     <span>About &nbsp; <a id="aboutArr"> &#8594;</a></span>
                     </Link>
@@ -28,4 +28,4 @@ function SecondPage(props){
     );
 }
 
-export default withRouter(SecondPage);
+export default withRouter(SecondPage); 

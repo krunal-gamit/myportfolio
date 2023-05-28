@@ -13,10 +13,10 @@ function EighthFooter(){
                <span id='colName'>Stop By.</span>
                <span id='colDetail'>💖 Learning</span>
                <span id='socialIcon'>
-                   <li><a target="_blank" href="https://www.instagram.com/krunalgamit_"><FaInstagram className="secSocial" /></a></li>
-                   <li><a target="_blank" href="https://twitter.com/krunalgamit_"><FaTwitter className="secSocial" /></a></li>
+                   <li><a target="_blank" href="https://www.instagram.com/krunalgamitt"><FaInstagram className="secSocial" /></a></li>
+                   <li><a target="_blank" href="https://twitter.com/krunalgamitt"><FaTwitter className="secSocial" /></a></li>
                    <li><a target="_blank" href="https://www.facebook.com/krooksgeek"><FaFacebook className="secSocial" /></a></li>
-                   <li><a target="_blank" href="https://github.com/krooksgeek"><FaGithub className="secSocial" /></a></li>
+                   <li><a target="_blank" href="https://github.com/krunal-gamit"><FaGithub className="secSocial" /></a></li>
                    <li><a target="_blank" href="https://www.linkedin.com/in/krunal-gamit/"><FaLinkedin className="secSocial" /></a></li>
                </span>
                </IconContext.Provider>
@@ -28,7 +28,7 @@ function EighthFooter(){
             <div className='col3'>
                <span id='colName'>Baby, it's hot outside.</span>
                <span id='colDetail'>Made with ❤️ in<br></br>Vyara, India.</span>
-               <span id='copyright'>Copyright © 2022 krooksgeek LLC. All rights reserved.</span>
+               <span id='copyright'>Copyright © 2023 krooksgeek LLC. All rights reserved.</span>
             </div>
             <div className='space'></div>
         </div>
