@@ -22,6 +22,7 @@
   margin-top: 9vw;
   margin-left: 10vw;
   margin-bottom: 7vw;
+  z-index: 100;
 }
 
 .intro span {
@@ -60,7 +61,7 @@
 }
 
 .box {
-  z-index: 999;
+  z-index: 0;
   overflow: hidden;
   position: absolute;
   height: 30vw;
@@ -102,7 +103,7 @@ li {
 
 @media (max-width: 575px) {
   .intro {
-    margin: 100vw 1vw 5vw 5vw;
+    margin: 70vw 1vw 5vw 5vw;
     width: auto;
   }
   .intro span {
@@ -118,6 +119,7 @@ li {
 
   .box img{
     margin-left: 15vw;
+    margin-top: -20vw;
   }
 
   .linkAbout span:after {
