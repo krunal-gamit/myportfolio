@@ -20,16 +20,16 @@ function Four3D(){
             </div>
 
             <div className='grid feature-grid'>
-            <a target="_blank" href='https://www.instagram.com/p/CP_WwnKhDns/' aria-label='check'><img src="/img/02.jpg"></img></a>
-            <a target="_blank" href='https://www.instagram.com/p/CP_WwnKhDns/' aria-label=''><img src="/img/01.jpg"></img></a>
+            <a target="_blank" href='https://www.instagram.com/p/CpDAeP2sMb6/' aria-label='check'><img src="/img/02.jpg"></img></a>
+            <a target="_blank" href='https://www.instagram.com/p/Cbakzf7gPEM/' aria-label=''><img src="/img/01.jpg"></img></a>
                 <a target="_blank" href='https://www.instagram.com/p/CP_WwnKhDns/' aria-label=''><img src="/img/1.jpg"></img></a>
                 <a target="_blank" href='https://www.instagram.com/p/CIQ-GEfhm8n/'aria-label=''><img src="/img/2.jpg"></img></a>
                 <a target="_blank" href='https://www.instagram.com/p/B9Pa2B7hlIf/'aria-label=''><img src="/img/3.jpg"></img></a>
                 <a target="_blank" href='https://www.instagram.com/p/B6vevekHgN0/'aria-label=''><img src="/img/4.jpg"></img></a>
                 <a target="_blank" href='https://www.instagram.com/p/B29yS_OgJrn/'aria-label=''><img src="/img/5.jpg"></img></a>
                 <a target="_blank" href='https://www.instagram.com/p/B2R2hUwHx03/'aria-label=''><img src="/img/6.jpg"></img></a>
-                <a target="_blank" href='https://www.instagram.com/p/B0n5ZbugtTw/'aria-label=''><img src="/img/7.jpg"></img></a>
-                <a target="_blank" href='https://www.instagram.com/p/BxlHNm0HGkg/'aria-label=''><img src="/img/8.jpg"></img></a>
+                
+                
             </div>
 
             </div>
