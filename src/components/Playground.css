@@ -6,6 +6,7 @@
   padding: 0;
   background-color: black;
   color: white;
+  overflow: hidden;
 }
 
 .playTitle #pTitle {
@@ -36,6 +37,7 @@
 .playList span ul li {
   padding: 2vw 0 2vw 0;
 }
+
 
 @media (max-width: 575px) {
 
