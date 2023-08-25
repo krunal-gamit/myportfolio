@@ -6,6 +6,7 @@
   padding: 0;
   background-color: black;
   color: white;
+  overflow: hidden;
 }
 
 .playTitle #pTitle {
@@ -18,7 +19,7 @@
 }
 
 .playText {
-  margin: 2vw 0 7vw 0vw;
+  margin: 2vw 0 0vw 0vw;
   display: flex;
   flex-direction: column;
   font-family: "Inter", sans-serif;
@@ -36,6 +37,7 @@
 .playList span ul li {
   padding: 2vw 0 2vw 0;
 }
+
 
 @media (max-width: 575px) {
 
