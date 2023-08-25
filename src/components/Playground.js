@@ -2,6 +2,7 @@ import React from "react";
 import "./Playground.css"
 import FourthProjects from "./FourthProjects";
 import SixthMeet from "./SixthMeet";
+import Animation from "./Animation";
 
 
 function Playground() {
@@ -28,25 +29,8 @@ function Playground() {
           <br/>A collection of dev. and designs. 
           Mix of practice and side projects.</span>
         </div>
+        <Animation/>
         
-        <div className="playList">
-          <span>
-          <ul>
-                  <ColoredLine color="white"/>
-                  <li>Airline Management System</li>
-                  <ColoredLine color="white"/>
-                  <li>Stock Price Prediction</li>
-                  <ColoredLine color="white"/>
-                  <li>Hospital Management System</li>
-                  <ColoredLine color="white"/>
-                  <li>Responsive Design</li>
-                  <ColoredLine color="white"/>
-                  <li></li>
-                  
-                </ul>
-          </span>
-        </div>
-        <SixthMeet/>
         <div className="space"></div>
       </div>
     </div>

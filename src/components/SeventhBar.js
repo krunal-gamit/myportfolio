@@ -1,4 +1,4 @@
-import './SeventhBar.css'
+import './SeventhBar.css';
 
 function SeventhBar(){
     return(
@@ -9,7 +9,7 @@ function SeventhBar(){
                     <span><span id="downArrow">&#859;</span></span>
                 </div>
             </div>
-        </div>
+        </div>  
     );
 }
 
